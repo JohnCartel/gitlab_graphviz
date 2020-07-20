@@ -4,14 +4,21 @@ layout: page
 {{ content }}
 {% if page.gv_file and page.img_src %}
 <p>
-  <a href="{{ page.gv_file }}">
-  <img style="max-width:100%;" src="{{ page.img_src }}">
-	</a><br>
-	<i>Click on the picture to view the .gv file</i>
+  <a href="{{ page.img_src }}">
+    <img style="max-width:100%;" src="{{ page.img_src }}">
+	</a>
 </p>
 {% endif %}
 <p>
 [<a href="{{page.svg}}">SVG</a>]
+</p>
+<p>
+<pre>
+<code>
+// <a href="{{ page.gv_file }}">{{ page.gv_file }}</a>:
+{% include_relative {{ page.gv_file }} %}
+</code>
+</pre>
 </p>
 <p>
 <font size="1">
