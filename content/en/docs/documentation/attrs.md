@@ -89,7 +89,7 @@ of the layout programs.
 
 ## Attribute Descriptions
 
-{{<attribute_descriptions>}}
+{{%attribute_descriptions%}}
 
 ---
 
@@ -103,4 +103,4 @@ For regular expressions, `(...)*` indicates 0 or more copies of the expression
 enclosed in the parentheses,  `(...)+` indicates 1 or more, and
 `(...)?` denotes 0 or 1 copy.
 
-{{< attribute_type_descriptions >}}
+{{% attribute_type_descriptions %}}
