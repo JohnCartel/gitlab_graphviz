@@ -1,0 +1,21 @@
+Is this loading 1MB of javascript/wasm or 500kB of javascript/wasm now?
+viz.js is archived
+- upgrade to latest d3-graphviz which probably doesn't use viz.js
+- bug on http://localhost:1313/docs/attrs/color/ in console when editing top example
+
+in http://localhost:1313/docs/attrs/arrowsize/ when editing arrowsize to be 0
+
+Uncaught DOMException: Failed to execute 'getPointAtLength' on 'SVGGeometryElement': The element's path is empty.
+    at https://unpkg.com/d3-graphviz@1.5.1/build/d3-graphviz.min.js:1:15444
+    at Array.map (<anonymous>)
+    at https://unpkg.com/d3-graphviz@1.5.1/build/d3-graphviz.min.js:1:15394
+    at w (https://unpkg.com/d3-graphviz@1.5.1/build/d3-graphviz.min.js:1:15496)
+    at E (https://unpkg.com/d3-graphviz@1.5.1/build/d3-graphviz.min.js:1:16065)
+    at https://unpkg.com/d3-graphviz@1.5.1/build/d3-graphviz.min.js:1:16184
+    at Array.forEach (<anonymous>)
+    at E (https://unpkg.com/d3-graphviz@1.5.1/build/d3-graphviz.min.js:1:16092)
+    at https://unpkg.com/d3-graphviz@1.5.1/build/d3-graphviz.min.js:1:16184
+    at Array.forEach (<anonymous>)
+
+Error: <path> attribute d: Expected number, "MNaN,-30.7607 223…".
+(anonymous)	

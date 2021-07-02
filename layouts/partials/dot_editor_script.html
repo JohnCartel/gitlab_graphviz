@@ -1,0 +1,99 @@
+<script src="https://d3js.org/d3.v7.js"></script>
+<script src="https://unpkg.com/viz.js@1.8.0/viz.js"></script>
+<script src="https://unpkg.com/d3-graphviz@1.5.1/build/d3-graphviz.min.js"></script>
+<script src="https://unpkg.com/ace-builds@1.4.12/src-noconflict/ace.js"></script>
+
+<script>
+'use strict';
+
+function graphvizMirror(d, i) {
+const container = d3.select(this);
+const gvEditor = container.select('.gv-editor');
+const gvGraph = container.select('.gv-graph');
+const gvErrorMessage = container.select('.gv-error-message');
+
+const editor = ace.edit(gvEditor.node());
+editor.setOptions({
+   maxLines: Infinity
+});
+editor.getSession().setMode("ace/mode/dot");
+
+
+var pendingUpdate = false
+var rendering = false;
+
+const graphviz = gvGraph
+  .graphviz()
+  .zoom(false)
+  .attributer(attributer)
+  .transition(function() {
+    return d3.transition().duration(1000);
+  });
+
+editor.getSession().on('change', render);
+render();
+
+function attributer(datum, index, nodes) {
+  if (datum.tag == "svg") {
+    var width = gvGraph.node().clientWidth;
+    var height = gvGraph.node().clientHeight;
+    var unit = 'px';
+    d3.select(this)
+      .attr("width", width + unit)
+      .attr("height", height + unit);
+    datum.attributes.width = width + unit;
+    datum.attributes.height = height + unit;
+  }
+}
+
+function render() {
+  const dotSrc = editor.getValue();
+  if (!dotSrc) {
+    return;
+  }
+  if (rendering) {
+    pendingUpdate = true;
+    return;
+  }
+
+  rendering = true;
+  gvErrorMessage.text("");
+  graphviz
+    .onerror(handleError)
+    .renderDot(dotSrc, startApp);
+}
+
+function handleError(errorMessage) {
+  gvErrorMessage.text(errorMessage);
+  rendering = false;
+  if (pendingUpdate) {
+    pendingUpdate = false;
+    render();
+  }
+}
+
+function startApp() {
+  rendering = false;
+  if (pendingUpdate) {
+    pendingUpdate = false;
+    render();
+  }
+}
+
+d3.select(window).on("resize", resizeSVG);
+
+function resizeSVG() {
+  gvGraph
+    .selectWithoutDataPropagation("svg")
+    .transition()
+    .duration(700)
+    .attr("width", gvGraph.node().clientWidth + 'px')
+    .attr("height", gvGraph.node().clientHeight + 'px');
+};
+
+}
+
+d3.selectAll('.gv-mirror,.gv-dot-card')
+  .each(graphvizMirror);
+
+</script>
