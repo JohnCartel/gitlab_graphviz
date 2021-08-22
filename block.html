@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+
+<h1>Next: make this two columns, or make it into a tab group</h1>
+<h1>Then maybe integrate this into the site</h1>
+<h1>Check in the versions of JS files I suppose</h1>
+<h1>Ensure we are distributing licenses & credits (in the JS I guess?)</h1>
+<p>Text</p>
+
+<script src="https://d3js.org/d3.v7.js"></script>
+<script src="https://unpkg.com/viz.js@1.8.0/viz.js" type="javascript/worker"></script>
+<script src="https://unpkg.com/d3-graphviz@1.5.1/build/d3-graphviz.min.js"></script>
+<script src="https://unpkg.com/ace-builds@1.4.12/src-noconflict/ace.js"></script>
+
+<div class="gv-mirror">
+<div class="gv-editor" style="height: 500px; border: 1px solid lightgray;"
+>strict digraph {
+    node [style="filled"]
+    a [shape="ellipse" fillcolor="#1f77b4"]
+    b [shape="polygon" fillcolor="#ff7f0e"]
+    a -> b [fillcolor="#a6cee3" color="#1f78b4"]
+    c
+}
+</div>
+<div class="gv-graph" style="height: 500px;">
+  <div class="gv-error-message" style="color: red"></div>
+</div>
+</div>
+
+<h1>Hi</h1>
+<p>Text</p>
+
+<div class="gv-mirror">
+<div class="gv-editor" style="height: 500px; border: 1px solid lightgray;"
+>strict digraph {
+    node [style="filled"]
+    a [shape="ellipse" fillcolor="#1f77b4"]
+    b [shape="polygon" fillcolor="#ff7f0e"]
+    a -> b [fillcolor="#a6cee3" color="#1f78b4"]
+    d
+}
+</div>
+<div class="gv-graph" style="height: 500px;">
+  <div class="gv-error-message" style="color: red"></div>
+</div>
+</div>
+
+<script>
+'use strict';
+
+function graphvizMirror(d, i) {
+const container = d3.select(this);
+const gvEditor = container.select('.gv-editor');
+const gvGraph = container.select('.gv-graph');
+const gvErrorMessage = container.select('.gv-error-message');
+
+const editor = ace.edit(gvEditor.node());
+
+var pendingUpdate = false
+var rendering = false;
+
+const graphviz = gvGraph
+  .graphviz()
+  .zoom(false)
+  .attributer(attributer)
+  .transition(function() {
+    return d3.transition().duration(1000);
+  });
+
+editor.getSession().on('change', render);
+render();
+
+function attributer(datum, index, nodes) {
+  if (datum.tag == "svg") {
+    var width = gvGraph.node().clientWidth;
+    var height = gvGraph.node().clientHeight;
+    var unit = 'px';
+    d3.select(this)
+      .attr("width", width + unit)
+      .attr("height", height + unit);
+    datum.attributes.width = width + unit;
+    datum.attributes.height = height + unit;
+  }
+}
+
+function render() {
+  const dotSrc = editor.getValue();
+  if (!dotSrc) {
+    return;
+  }
+  if (rendering) {
+    pendingUpdate = true;
+    return;
+  }
+
+  rendering = true;
+  gvErrorMessage.text("");
+  graphviz
+    .onerror(handleError)
+    .renderDot(dotSrc, startApp);
+}
+
+function handleError(errorMessage) {
+  gvErrorMessage.text(errorMessage);
+  rendering = false;
+  if (pendingUpdate) {
+    pendingUpdate = false;
+    render();
+  }
+}
+
+function startApp() {
+  rendering = false;
+  if (pendingUpdate) {
+    pendingUpdate = false;
+    render();
+  }
+}
+
+d3.select(window).on("resize", resizeSVG);
+
+function resizeSVG() {
+  const width = gvGraph.node().clientWidth;
+  const height = gvGraph.node().clientHeight;
+  gvGraph
+    .selectWithoutDataPropagation("svg")
+    .transition()
+    .duration(700)
+    .attr("width", width + 'px')
+    .attr("height", height + 'px');
+};
+
+}
+
+d3.selectAll('.gv-mirror')
+  .each(graphvizMirror);
+
+</script>
+
+</body>
+</html>

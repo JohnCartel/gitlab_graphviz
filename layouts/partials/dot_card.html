@@ -1,5 +1,5 @@
 {{ $gv_src := trim .gv_src "\n "}}
-<div class="card mb-4">
+<div class="gv-dot-card card mb-4">
   {{ with .header }}
     <div class="card-header">
       {{ if eq $.context.Page.File.Ext "md" }}
@@ -28,7 +28,12 @@
         {{ end }}
       </h6>
     {{ end }}
-    {{- highlight $gv_src "dot" "" -}}
+    <div class="gv-editor" style="font-size: 1em;">
+      {{- $gv_src -}}
+    </div>
+    <div class="gv-graph" style="height: 300px;">
+      <div class="gv-error-message" style="color: red"></div>
+    </div>
   </div>
   <div class="card-footer">
     <a href="http://magjac.com/graphviz-visual-editor/?dot={{ $gv_src }}" target="_blank"><i class="fa fa-external-link-alt"></i> Edit in Playground</a>
