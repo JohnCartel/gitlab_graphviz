@@ -87,7 +87,7 @@ digraph G {
 
 yields the figure:
 
-![](/doc/info/fixed.gif)
+![](/docs/nodes/shapes/shape-fixedsize.svg)
 
 Note that the label of the yellow node, with `fixedsize=true`, overlaps
 the other node, where there is sufficient space for the gray node with
