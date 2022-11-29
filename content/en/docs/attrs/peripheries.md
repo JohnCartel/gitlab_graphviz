@@ -14,7 +14,7 @@ used_by: NC
 description: Set number of peripheries used in polygonal shapes and cluster boundaries
 ---
 
-Note that [user-defined shapes]({{< ref "../shapes.md#epsf" >}}) are treated as a form of
+Note that [user-defined shapes]({{< ref "../shapes/_index.md#epsf" >}}) are treated as a form of
 box shape, so the default peripheries value is 1 and the user-defined shape
 will be drawn in a bounding rectangle. Setting `peripheries=0` will turn this
 off.

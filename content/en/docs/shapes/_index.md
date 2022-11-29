@@ -1,6 +1,6 @@
 ---
 title: Node Shapes
-url: /doc/info/shapes.html
+aliases: [/doc/info/shapes.html]
 stylesheet: shapes.css
 weight: 5
 ---
@@ -19,7 +19,7 @@ consider using `shape=none`, `margin=0` and an HTML-like label.
 </p>
 
 The geometry and style of all node shapes are affected by
-the node attributes 
+the node attributes
 [`fixedsize`]({{< ref "/docs/attrs/fixedsize.md" >}}),
 [`fontname`]({{< ref "/docs/attrs/fontname.md" >}}),
 [`fontsize`]({{< ref "/docs/attrs/fontsize.md" >}}),
@@ -325,7 +325,7 @@ graphs, and the
 [`headlabel`]({{< ref "/docs/attrs/headlabel.md" >}}) and
 [`taillabel`]({{< ref "/docs/attrs/taillabel.md" >}})
 attributes of an edge) is given as an
-[HTML string]({{< ref "lang.html#html" >}}),
+[HTML string]({{< ref "../lang.html#html" >}}),
 that is, delimited by `<...>`
 rather than `"..."`,
 the label is interpreted as
@@ -335,7 +335,7 @@ can describe multiple lines of variously aligned text as provided by ordinary
 label can specify a table similar to those provided by HTML,
 with different graphical attributes at each level.
 
-As [HTML strings]({{< ref "lang.html#html">}}) are processed like HTML input, any use of
+As [HTML strings]({{< ref "../lang.html#html">}}) are processed like HTML input, any use of
 the `"`, `&`, `<`, and `>` characters in literal text or in attribute values
 need to be replaced by the corresponding escape sequence. For example, if you want to
 use `&` in an `href` value, this should be represented as `&amp;`.

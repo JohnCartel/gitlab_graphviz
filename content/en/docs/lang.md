@@ -41,7 +41,7 @@ escape sequences for &quot;, &amp;, &lt;, and &gt; may be necessary
 in order to embed these characters in attribute values or raw text.
 As an ID, an HTML string can be any legal XML string. However, if used
 as a label attribute, it is interpreted specially and must follow the syntax
-for [HTML-like labels](/doc/info/shapes.html#html).
+for [HTML-like labels](/docs/shapes/#html).
 
 Both quoted strings and HTML strings are scanned as a unit, so
 any embedded comments will be treated as part of the strings.

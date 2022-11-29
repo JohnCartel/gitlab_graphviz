@@ -273,7 +273,7 @@ For SVG output, we just pass the raw UTF-8 (or other encoding) straight through 
 
 ### How can I create custom shapes? {#FaqCustShape}
 
-One approach is to use [HTML-like labels](/doc/info/shapes.html#html) possibly combined with embedded images use the `IMG` attribute.
+One approach is to use [HTML-like labels](/docs/shapes/#html) possibly combined with embedded images use the `IMG` attribute.
 
 As alluded to in the [dot user's guide](/pdf/dotguide.pdf), if you want truly custom shape, there are several ways to incorporate this.
 At this point, they either must be in PostScript or 
@@ -521,7 +521,7 @@ We don't want to reset a,b,c to color=black just because that is default in sub1
 
 ### How do I get font and color changes in record labels or other labels? {#FaqFontChanges}
 
-This is not possible in record shapes. However, you can do this using [HTML-like labels](/doc/info/shapes.html#html).
+This is not possible in record shapes. However, you can do this using [HTML-like labels](/docs/shapes/#html).
 
 ### In `-Tplain` format, splines do not touch the nodes (arrowheads are missing). {#FaqPlainArrows}
 
@@ -532,7 +532,7 @@ drawing the edge spline will leave a gap between the edge and the node. This is 
 ### Record nodes are drawn differently in dot and neato when rankdir=LR. {#FaqRecordLR}
 
 It's true. `dot -Grankdir=LR` rotates record nodes so that their top level fields are still listed across levels. `rankdir=LR` has no effect in neato. 
-One workaround is to use [HTML-like labels](/doc/info/shapes.html#html) (they don't rotate; the downside is that you have to write in XML). 
+One workaround is to use [HTML-like labels](/docs/shapes/#html) (they don't rotate; the downside is that you have to write in XML).
 In general, we recommend replacing record nodes with the much more general HTML-like labels.
 Another workaround is to enclose record labels in { } to rotate/unrotate the record contents.
 See also, How To Avoid Foolish Consistency by Scott Berkun (Microsoft Corp.)
