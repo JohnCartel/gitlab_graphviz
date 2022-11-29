@@ -28,6 +28,14 @@
         {{ end }}
       </h6>
     {{ end }}
+    {{ with .svg }}
+      <p>
+        <a href="{{.}}">
+          <object type="image/svg+xml" data="{{.}}">
+          </object>
+        </a>
+      </p>
+    {{ end }}
     {{- highlight $gv_src "dot" "" -}}
   </div>
   <div class="card-footer">
