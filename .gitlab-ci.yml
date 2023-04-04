@@ -15,7 +15,6 @@ build_site:
     paths:
       - public # generating site folder to be browsed or download
   variables:
-    GIT_SUBMODULE_STRATEGY: recursive
     HUGO_ENV: production
 
 html5validator:
@@ -58,6 +57,5 @@ pages:
   only:
     - main # this job will affect only the 'main' branch
   variables:
-    GIT_SUBMODULE_STRATEGY: recursive
     HUGO_ENV: production
 
