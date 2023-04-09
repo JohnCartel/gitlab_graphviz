@@ -9,10 +9,8 @@ title: tailURL
 types:
 - escString
 used_by: E
-description: If defined, `tailURL` is output as part of the tail label of th
+description: If defined, `tailURL` is output as part of the tail label of the edge
 ---
-edge.
-
 Also, this value is used near the tail node, overriding any
 [`URL`]({{< ref "URL.md" >}}) value.
 
