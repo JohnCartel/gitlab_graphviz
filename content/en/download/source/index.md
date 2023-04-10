@@ -89,7 +89,7 @@ dependencies is to browse the
 [ci/](https://gitlab.com/graphviz/graphviz/-/tree/main/ci) directory of the
 Graphviz Git repository.
 
-cairo-1.1.10.tar.gz [optional (required for libpangocairo), recommended]
+cairo-1.10.0.tar.gz [optional (required for libpangocairo), recommended]
 : [http://cairographics.org/](http://cairographics.org/)
 
 expat-2.0.0.tar.gz [optional (required for HTML-like labels), recommended]
