@@ -92,8 +92,7 @@ or RPMs [here](https://graphviz.org/download/).
 
 First, if you are using sources from Git, run `./autogen.sh`
 to generate the `configure` script.  If you are using sources
-from `graphviz-<version>.tar.gz` this `autogen.sh` step should not be
-needed.
+from `graphviz-<version>.tar.gz` this `autogen.sh` step is not needed.
 
 Next, run configure. For help on possible configure options, run:
 
