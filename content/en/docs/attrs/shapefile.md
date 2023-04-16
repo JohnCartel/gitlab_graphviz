@@ -22,3 +22,8 @@ There is one exception to this usage: If <code>[shape]({{< ref "shape.md" >}})="
 PostScript. The graphics defined must be contain all of the node content,
 including any desired boundaries. For further details, see [External
 PostScript files](../../../faq/#ext_ps_file).
+
+Only paths to local resources are supported. If you want to use a URL to a
+remote resource, see the
+[`dot_url_resolve.py`](https://gitlab.com/graphviz/graphviz/-/blob/main/contrib/dot_url_resolve.py)
+script.
