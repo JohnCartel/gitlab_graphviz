@@ -29,3 +29,8 @@ The file must contain the image size information:
 Unlike with the [`shapefile`]({{< ref "shapefile.md" >}}) attribute, the image is treated
 as node content rather than the entire node. In particular, an image can be
 contained in a node of any shape, not just a rectangle.
+
+Only paths to local resources are supported. If you want to use a URL to a
+remote resource, see the
+[`dot_url_resolve.py`](https://gitlab.com/graphviz/graphviz/-/blob/main/contrib/dot_url_resolve.py)
+script.
