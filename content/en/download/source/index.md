@@ -113,7 +113,7 @@ glib-2.36.0.tar.xz [optional (required for libpangocairo), recommended]
 libpng-1.2.10.tar.gz [optional (required for cairo, optional for gd), recommended]
 : [http://www.libpng.org/pub/png/](http://www.libpng.org/pub/png/)
 
-pango-1.12.4.tar.gz provides libpangocairo [optional, recommended]
+pango-1.22.0.tar.gz provides libpangocairo [optional, recommended]
 : [http://www.pango.org/](http://www.pango.org/)
 
 zlib-1.2.3.tar.gz [optional (required for libpng), recommended]
