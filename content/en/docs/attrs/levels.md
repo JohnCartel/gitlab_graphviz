@@ -1,6 +1,6 @@
 ---
 defaults:
-- MAXINT
+- INT_MAX
 flags:
 - sfdp
 minimums:
