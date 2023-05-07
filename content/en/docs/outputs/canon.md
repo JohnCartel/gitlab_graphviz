@@ -106,7 +106,7 @@ label directive. For example, for a node, one would first use the commands
 in `draw` followed by the commands in `ldraw`.
 
 The value of these attributes consists of the concatenation of some
-(multi-)set of the following 13 rendering or attribute operations.
+(multi-)set of the following 14 rendering or attribute operations.
 (The number is parentheses gives the xdot version when the operation
 was added to the format. If no version number is given, the operation
 was in the original specification.)
