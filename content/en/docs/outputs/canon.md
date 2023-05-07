@@ -14,7 +14,7 @@ These formats produce output in the
 
 ## canon
 
-Using `canon` produces a prettyprinted version of the input,
+Using `canon` produces a pretty printed version of the input,
 with no layout performed.
 
 {{< card header="Example: simple graph, canonicalized formatting with `-Tcanon`">}}
