@@ -112,10 +112,10 @@ was added to the format. If no version number is given, the operation
 was in the original specification.)
 
 E x₀ y₀ w h
-: Filled ellipse ((x-x₀)/w)² + ((y-y₀)/h)² = 1
+: Filled ellipse ((x - x₀) ÷ w)² + ((y - y₀) ÷ h)² = 1
 
 e x₀ y₀ w h
-: Unfilled ellipse ((x-x₀)/w)² + ((y-y₀)/h)² = 1
+: Unfilled ellipse ((x - x₀) ÷ w)² + ((y - y₀) ÷ h)² = 1
 
 P n x₁ y₁ ... xₙ yₙ
 : Filled polygon using the given n points
