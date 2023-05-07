@@ -229,14 +229,14 @@ Version info:
 
 | Xdot version | Graphviz version | Modification
 | ------------ | ---------------- | ------------
-| >1.0         | 1.9
-| >1.1         | 2.8              | First plug-in version
-| >1.2         | 2.13             | Support image operator **I**
-| >1.3         | 2.31             | Add numerical precision
-| >1.4         | 2.32             | Add gradient colors
-| >1.5         | 2.34             | Fix text layout problem; fix inverted vector in gradient; support version-specific output; new **t** op for text characteristics
-| >1.6         | 2.35             | Add STRIKE-THROUGH bit for`t`
-| >1.7         | 2.37             | Add OVERLINE for `t`
+| &gt;1.0      | 1.9
+| &gt;1.1      | 2.8              | First plug-in version
+| &gt;1.2      | 2.13             | Support image operator **I**
+| &gt;1.3      | 2.31             | Add numerical precision
+| &gt;1.4      | 2.32             | Add gradient colors
+| &gt;1.5      | 2.34             | Fix text layout problem; fix inverted vector in gradient; support version-specific output; new **t** op for text characteristics
+| &gt;1.6      | 2.35             | Add STRIKE-THROUGH bit for`t`
+| &gt;1.7      | 2.37             | Add OVERLINE for `t`
 
 {{< card header="Example: simple graph, outputting layout positioning & drawing information with `-Txdot`">}}
 ```
