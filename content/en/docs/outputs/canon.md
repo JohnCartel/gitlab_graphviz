@@ -14,7 +14,7 @@ These formats produce output in the
 
 ## canon
 
-Using `canon` produces a prettyprinted version of the input,
+Using `canon` produces a pretty printed version of the input,
 with no layout performed.
 
 {{< card header="Example: simple graph, canonicalized formatting with `-Tcanon`">}}
@@ -106,16 +106,16 @@ label directive. For example, for a node, one would first use the commands
 in `draw` followed by the commands in `ldraw`.
 
 The value of these attributes consists of the concatenation of some
-(multi-)set of the following 13 rendering or attribute operations.
+(multi-)set of the following 14 rendering or attribute operations.
 (The number is parentheses gives the xdot version when the operation
 was added to the format. If no version number is given, the operation
 was in the original specification.)
 
 E x₀ y₀ w h
-: Filled ellipse ((x-x₀)/w)² + ((y-y₀)/h)² = 1
+: Filled ellipse ((x - x₀) ÷ w)² + ((y - y₀) ÷ h)² = 1
 
 e x₀ y₀ w h
-: Unfilled ellipse ((x-x₀)/w)² + ((y-y₀)/h)² = 1
+: Unfilled ellipse ((x - x₀) ÷ w)² + ((y - y₀) ÷ h)² = 1
 
 P n x₁ y₁ ... xₙ yₙ
 : Filled polygon using the given n points
@@ -229,14 +229,14 @@ Version info:
 
 | Xdot version | Graphviz version | Modification
 | ------------ | ---------------- | ------------
-| >1.0         | 1.9
-| >1.1         | 2.8              | First plug-in version
-| >1.2         | 2.13             | Support image operator **I**
-| >1.3         | 2.31             | Add numerical precision
-| >1.4         | 2.32             | Add gradient colors
-| >1.5         | 2.34             | Fix text layout problem; fix inverted vector in gradient; support version-specific output; new **t** op for text characteristics
-| >1.6         | 2.35             | Add STRIKE-THROUGH bit for`t`
-| >1.7         | 2.37             | Add OVERLINE for `t`
+| &gt;1.0      | 1.9
+| &gt;1.1      | 2.8              | First plug-in version
+| &gt;1.2      | 2.13             | Support image operator **I**
+| &gt;1.3      | 2.31             | Add numerical precision
+| &gt;1.4      | 2.32             | Add gradient colors
+| &gt;1.5      | 2.34             | Fix text layout problem; fix inverted vector in gradient; support version-specific output; new **t** op for text characteristics
+| &gt;1.6      | 2.35             | Add STRIKE-THROUGH bit for`t`
+| &gt;1.7      | 2.37             | Add OVERLINE for `t`
 
 {{< card header="Example: simple graph, outputting layout positioning & drawing information with `-Txdot`">}}
 ```
