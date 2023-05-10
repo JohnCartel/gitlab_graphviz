@@ -1522,7 +1522,7 @@
 					network simplex applications, used in
 					computing node x coordinates.
 					If defined, # iterations =  <html:a rel="attr">nslimit</html:a> * # nodes;
-					otherwise,  # iterations = MAXINT.
+					otherwise,  # iterations = INT_MAX.
 				</html:p>
 			</xsd:documentation>
 		</xsd:annotation>
@@ -1535,7 +1535,7 @@
 					Used to set number of iterations in
 					network simplex applications, used for ranking nodes.
 					If defined, # iterations =  <html:a rel="attr">nslimit1</html:a> * # nodes;
-					otherwise,  # iterations = MAXINT.
+					otherwise,  # iterations = INT_MAX.
 				</html:p>
 			</xsd:documentation>
 		</xsd:annotation>
