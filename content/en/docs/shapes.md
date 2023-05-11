@@ -407,7 +407,7 @@ Attribute values must appear in double quotes.
 : <pre>
   &lt;TABLE
     <a href="#align">ALIGN</a>="CENTER|LEFT|RIGHT"
-    <a href="#bgcolor">BGCOLOR</a>=<I>color</I>"
+    <a href="#bgcolor">BGCOLOR</a>="<I>color</I>"
     <a href="#border">BORDER</a>="<I>value</I>"
     <a href="#cellborder">CELLBORDER</a>="<I>value</I>"
     <a href="#cellpadding">CELLPADDING</a>="<I>value</I>"
