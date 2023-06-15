@@ -292,6 +292,7 @@ echo 'digraph { a->b }' | dot -Tjson
   ]
 }
 ```
+{{< /card >}}
 
 <style>
 .jsontable {
