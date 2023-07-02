@@ -3,10 +3,11 @@
 function doGraph {
 	i=$1
 	j=${i%.gv.txt}
-	neato -Tpng -Gsize="7,7" $i -o $j.png
-	neato -Tsvg $i -o $j.svg
-	echo $j.png
-	echo $j.svg
+	if [[ $i -nt $j.png || $i -nt $j.svg ]]; then
+		neato -Tpng -Gsize="7,7" $i -o $j.png
+		neato -Tsvg $i -o $j.svg
+		ls -l $j.png $j.svg
+	fi
 }
 
 if [[ $# > 0 ]]; then
