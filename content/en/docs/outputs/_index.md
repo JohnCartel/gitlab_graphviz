@@ -21,9 +21,9 @@ flag for additional information.
 Note that the internal coordinate system has the origin
 in the lower left corner.
 Thus, positions in the
-[canon](/docs/outputs/canon/),
-[dot](/docs/outputs/canon/),
-[xdot](/docs/outputs/canon/),
+[canon](/docs/outputs/canon/#canon),
+[dot](/docs/outputs/canon/#dot--gv),
+[xdot](/docs/outputs/canon/#xdot),
 [plain](/docs/outputs/plain/), and
 [plain-ext](/docs/outputs/plain/)
 formats need to be interpreted in this manner.
