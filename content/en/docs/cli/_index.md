@@ -207,8 +207,8 @@ drawing.
 ### `-y` {#-y}
 
 By default, the coordinate system used in generic output formats, 
-such as [attributed dot](/docs/outputs/canon/),
-[extended dot](/docs/outputs/canon/),
+such as [attributed dot](/docs/outputs/canon/#dot--gv),
+[extended dot](/docs/outputs/canon/#xdot),
 [plain](/docs/outputs/plain/) and
 [plain-ext](/docs/outputs/plain/),
 is the standard cartesian system with the origin in the lower left corner, 
