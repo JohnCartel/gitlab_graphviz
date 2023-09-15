@@ -33,8 +33,9 @@ We list them for convenience, but disclaim responsibility for the contents of th
 
 ### Linux
 
-We do not provide precompiled packages any more.
-You may find it useful to try one of the following third-party sites.
+Precompiled binaries are available attached to releases on Gitlab,
+https://gitlab.com/graphviz/graphviz/-/releases.
+You may also find it useful to try one of the following third-party sites.
 
 * [Ubuntu packages](https://packages.ubuntu.com/search?keywords=graphviz&searchon=names)*
 
