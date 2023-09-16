@@ -1,12 +1,16 @@
 ---
 title: color
 ---
-Colors can be specified using one of four formats:
+Colors can be specified using one of five formats:
 
 <TABLE>
   <TR>
     <TD><CODE>"#%2x%2x%2x"</CODE></TD>
     <TD>Red-Green-Blue (RGB)</TD>
+  </TR>
+  <TR>
+    <TD><CODE>"#%1x%1x%1x"</CODE></TD>
+    <TD>Shorthand Red-Green-Blue (RGB)</TD>
   </TR>
   <TR>
     <TD><CODE>"#%2x%2x%2x%2x"</CODE></TD>
@@ -29,8 +33,10 @@ Colors can be specified using one of four formats:
 The specification for the RGB and RGBA formats are the format strings used by
 `sscanf` to scan the color value. Thus, these values have the form "#RGB" or
 "#RGBA", where R, G, B, and A each consist of 2 hexadecimal digits, and can
-be separated by whitespace. HSV colors have the form of 3 or (as of Graphviz
-8.0.1) 4 numbers between 0 and 1, separated by whitespace or commas.
+be separated by whitespace. As of Graphviz 9.0.0, RGB components can also be
+given as 1 hexadecimal digit. These are each doubled to form 2-digit components,
+similar to shorthand HTML colors. HSV colors have the form of 3 or (as of
+Graphviz 8.0.1) 4 numbers between 0 and 1, separated by whitespace or commas.
 
 String-valued color specifications are case-insensitive and interpreted in
 the context of the current color scheme, as specified by the
