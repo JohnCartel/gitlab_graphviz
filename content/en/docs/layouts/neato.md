@@ -2,7 +2,7 @@
 title: neato
 weight: 2
 description: >
-  "spring model" layouts.
+  [spring model](https://en.wikipedia.org/wiki/Spring_system) layouts.
 ---
 
 `neato` is a reasonable default tool to use for undirected graphs that aren't
