@@ -55,7 +55,7 @@ You may also find it useful to try one of the following third-party sites.
   sudo apt install graphviz
   ```
 
-* [Stable and development rpms for Redhat Enterprise, or CentOS systems](http://rpmfind.net/linux/rpm2html/search.php?query=graphviz)* available but are out of date.
+* [Stable and development rpms for Redhat Enterprise, or CentOS systems](http://rpmfind.net/linux/rpm2html/search.php?query=graphviz)*
 
   ```bash
   sudo yum install graphviz
