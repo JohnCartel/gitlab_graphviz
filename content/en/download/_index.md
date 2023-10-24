@@ -111,10 +111,10 @@ Mostly correct notes for building Graphviz on Windows can be found
   brew install graphviz
   ```
 
-We need help with OSX, if you would like to volunteer.
+We need help with macOS, if you would like to volunteer.
 
 We would appreciate if someone donates a script to
-run pkgbuild or productbuild to automatically generate OSX installers.
+run pkgbuild or productbuild to automatically generate macOS installers.
 [Packaging for Apple Administrators](https://itunes.apple.com/us/book/packaging-for-apple-administrators/id1173928620?mt=11&ign-mpt=uo%3D4)
 could be a good reference. Note graphviz needs postinstall actions, at least `dot -c`; also `fc-cache` if Graphviz has freetype/cairopango drivers.
 
