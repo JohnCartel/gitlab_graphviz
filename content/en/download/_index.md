@@ -149,7 +149,7 @@ Minimally, graphviz and graphvizgd should be installed.
 
 ### Other Unix
 
+* [DragonFly BSD](https://ftp.icm.edu.pl/packages/dragonflybsd/dports/dragonfly:6.6:x86:64/LATEST/All/)*
 * [FreeBSD](http://www.freshports.org/graphics/graphviz/)*
-
-
-
+* [NetBSD](https://cdn.netbsd.org/pub/pkgsrc/current/pkgsrc/graphics/graphviz/)*
+* [OpenBSD](https://github.com/openbsd/ports/tree/master/math/graphviz)*
