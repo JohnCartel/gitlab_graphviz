@@ -55,7 +55,7 @@ You may also find it useful to try one of the following third-party sites.
   sudo apt install graphviz
   ```
 
-* [Stable and development rpms for Redhat Enterprise, or CentOS systems](http://rpmfind.net/linux/rpm2html/search.php?query=graphviz)* available but are out of date.
+* [Stable and development rpms for Redhat Enterprise, or CentOS systems](http://rpmfind.net/linux/rpm2html/search.php?query=graphviz)*
 
   ```bash
   sudo yum install graphviz
@@ -111,10 +111,10 @@ Mostly correct notes for building Graphviz on Windows can be found
   brew install graphviz
   ```
 
-We need help with OSX, if you would like to volunteer.
+We need help with macOS, if you would like to volunteer.
 
 We would appreciate if someone donates a script to
-run pkgbuild or productbuild to automatically generate OSX installers.
+run pkgbuild or productbuild to automatically generate macOS installers.
 [Packaging for Apple Administrators](https://itunes.apple.com/us/book/packaging-for-apple-administrators/id1173928620?mt=11&ign-mpt=uo%3D4)
 could be a good reference. Note graphviz needs postinstall actions, at least `dot -c`; also `fc-cache` if Graphviz has freetype/cairopango drivers.
 
@@ -149,7 +149,7 @@ Minimally, graphviz and graphvizgd should be installed.
 
 ### Other Unix
 
+* [DragonFly BSD](https://ftp.icm.edu.pl/packages/dragonflybsd/dports/dragonfly:6.6:x86:64/LATEST/All/)*
 * [FreeBSD](http://www.freshports.org/graphics/graphviz/)*
-
-
-
+* [NetBSD](https://cdn.netbsd.org/pub/pkgsrc/current/pkgsrc/graphics/graphviz/)*
+* [OpenBSD](https://github.com/openbsd/ports/tree/master/math/graphviz)*
