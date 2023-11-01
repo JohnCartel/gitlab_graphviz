@@ -30,7 +30,7 @@ graph {
 {{< dot_card header="Set random seed to 2, graph looks different">}}
 graph {
     layout="fdp"
-    start=1
+    start=2
     A -- B; B -- C; C -- D; D -- A
 }
 {{< /dot_card >}}
