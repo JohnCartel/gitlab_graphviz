@@ -6,6 +6,6 @@ minimums: []
 title: bb
 types:
 - rect
-used_by: G
+used_by: CG
 description: Bounding box of drawing in points
 ---
