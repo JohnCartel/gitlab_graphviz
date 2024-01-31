@@ -35,10 +35,10 @@ Graphviz 为具体图表提供了许多有用的功能，例如颜色、字体�
 * **任何网络浏览器**都可以打开 Graphviz 生成的 SVG 或 PDF
 * gvedit 是 Graphviz 中用 Qt 编写的简单查看器和编辑器
 * **Mac OS X Graphviz.app**（即将重新发布）
-* **graphviz Web 沙箱**编辑器，例如 [graphviz 可视化编辑器](http://magjac.com/graphviz-visual-editor/) 和 [Graphviz Online](https://dreampuf.github.io/GraphvizOnline/ ）
+* **graphviz Web 沙箱**编辑器，例如 [graphviz 可视化编辑器](http://magjac.com/graphviz-visual-editor/) 和 [Graphviz Online](https://dreampuf.github.io/GraphvizOnline/)
 ## Filters
 
-* [**gvpr**](/docs/cli/gvpr/) 是一个通用图形流编辑器，本着 [`awk`](https://en.wikipedia.org/wiki/AWK) 的精神). ) 和 [`sed`](https://en.wikipedia.org/wiki/Sed)（或者如果您不知道这些，请考虑 [Perl](https://www.perl.org/) ）。
+* [**gvpr**](/docs/cli/gvpr/) 是一个通用图形流编辑器，本着 [`awk`](https://en.wikipedia.org/wiki/AWK) 的精神和 [`sed`](https://en.wikipedia.org/wiki/Sed)（或者如果您不知道这些，请考虑 [Perl](https://www.perl.org/) ）。
 
 ## 示例应用程序
 
