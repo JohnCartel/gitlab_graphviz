@@ -6,4 +6,4 @@ aliases:
 toc_hide: true
 type: docs
 ---
-The Graphviz todo list has moved to the [Graphviz issue tracker](https://gitlab.com/graphviz/graphviz/-/issues).
+Graphviz 待办事项列表已移至 [Graphviz 问题跟踪器](https://gitlab.com/graphviz/graphviz/-/issues)。
