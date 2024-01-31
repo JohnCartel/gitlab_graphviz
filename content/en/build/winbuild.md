@@ -10,7 +10,7 @@ For building on Windows:
 **(Graphviz versions ≥ 2.41)**
 
 First, in the root of the repository, perform `git submodule update --init`. This will download all submodules, which are mostly the dependencies for the Windows build.
-Next, add the windows\dependencies\graphviz-build-utilities directory to your PATH (and restart Visual Studio or the prompt with which you execute msbuild after that). This folder contains the tools Bison, Flex and SED (and future additions) with versions that are tested.
+Next, add the windows\dependencies\graphviz-build-utilities directory to your PATH (and restart Visual Studio or the prompt with which you execute msbuild after that). This folder contains the tools Bison, Flex and others with versions that are tested.
 If all went right, the dependencies are now set up and you can build Graphviz.
 
 **(Graphviz versions ≥ 2.30)**
