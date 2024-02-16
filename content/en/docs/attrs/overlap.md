@@ -4,6 +4,9 @@ defaults:
 flags:
 - fdp
 - neato
+- sfdp
+- circo
+- twopi
 minimums: []
 title: overlap
 types:
