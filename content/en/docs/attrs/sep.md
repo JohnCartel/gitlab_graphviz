@@ -4,6 +4,10 @@ defaults:
 flags:
 - fdp
 - neato
+- sfdp
+- osage
+- circo
+- twopi
 minimums: []
 title: sep
 types:
