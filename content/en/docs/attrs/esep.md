@@ -3,6 +3,11 @@ defaults:
 - '+3'
 flags:
 - neato
+- fdp
+- sfdp
+- osage
+- circo
+- twopi
 minimums: []
 title: esep
 types:
