@@ -4,7 +4,7 @@ defaults:
 - '""'
 flags: []
 minimums:
-- '360.0'
+- '-360.0'
 title: orientation
 types:
 - double
