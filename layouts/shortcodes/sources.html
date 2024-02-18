@@ -1,11 +1,11 @@
 <ul>
 {{ range $source := sort $.Site.Data.releases "version" "desc" }}
   <li>
-    {{- .version }}
+    {{- .name }}
     <ul>
       {{ range .sources }}
       <li>
-        <a href="{{.url}}">{{$source.version}}.{{.format}}</a>
+        <a href="{{.url}}">{{$source.name}}.{{.format}}</a>
         {{- if .md5 -}}
         , <a href="{{.md5}}">md5</a>
         {{- end -}}

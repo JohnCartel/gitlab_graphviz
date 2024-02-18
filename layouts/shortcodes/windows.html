@@ -2,17 +2,17 @@
 {{ range $source := sort $.Site.Data.releases "version" "desc" }}
   {{ if .windows }}
   <li>
-    {{- .version }}
+    {{- .name }}
     <ul>
       {{ range .windows }}
       <li>
-        <a href="{{.url}}">{{$source.version}} ({{.bits}}-bit) {{.format}}</a>
+        <a href="{{.url}}">{{$source.name}} ({{.bits}}-bit) {{.format}}</a>
         {{- if .sha256 }} [<a href="{{.sha256}}">sha256</a>]{{- end -}}
         {{- if in .format "ZIP" }} (contains all tools and libraries){{- end -}}
       </li>
       {{ end }}
       {{ if $source.packages }}
-      <li>Further {{$source.version}} variants available on <a href="{{ $source.packages }}">GitLab</a></li>
+      <li>Further {{$source.name}} variants available on <a href="{{ $source.packages }}">GitLab</a></li>
       {{ end }}
     </ul>
   </li>
