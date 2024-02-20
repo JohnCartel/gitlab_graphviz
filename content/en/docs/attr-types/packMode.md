@@ -3,21 +3,21 @@ title: packMode
 description: How closely to pack together graph components
 ---
 * `"node"`
-* `"clust"`
+* `"cluster"`
 * `"graph"`
 * `"array(_flags)?(%d)?"`
 
-The modes `"node"`, `"clust"` or `"graph"` specify that the components should be
+The modes `"node"`, `"cluster"` or `"graph"` specify that the components should be
 packed together tightly, using the specified granularity. A value of `"node"`
 causes packing at the node and edge level, with no overlapping of these
 objects. This produces a layout with the least area, but it also allows
 interleaving, where a node of one component may lie between two nodes in
 another component. A value of `"graph"` does a packing using the bounding box
 of the component. Thus, there will be a rectangular region around a component
-free of elements of any other component. A value of `"clust"` guarantees that
+free of elements of any other component. A value of `"cluster"` guarantees that
 top-level clusters are kept intact. What effect a value has also depends on
 the layout algorithm. For example, `neato` does not support clusters, so a
-value of `"clust"` will have the same effect as the default `"node"` value.
+value of `"cluster"` will have the same effect as the default `"node"` value.
 
 The mode `"array(_flag)?(%d)?"` indicates that the components should be
 packed at the graph level into an array of graphs. By default, the components
