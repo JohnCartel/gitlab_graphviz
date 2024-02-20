@@ -1,5 +1,6 @@
 {
-  "version": "graphviz-7.0.4",
+  "name": "graphviz-7.0.4",
+  "version": "07.0.4",
   "sources": [
     {
       "format": "gz",
