@@ -3,12 +3,12 @@
   "version": "06.0.1",
   "sources": [
     {
-      "format": "gz",
+      "format": "tar.gz",
       "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/6.0.1/graphviz-6.0.1.tar.gz",
       "sha256": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/6.0.1/graphviz-6.0.1.tar.gz.sha256"
     },
     {
-      "format": "xz",
+      "format": "tar.xz",
       "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/6.0.1/graphviz-6.0.1.tar.xz",
       "sha256": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/6.0.1/graphviz-6.0.1.tar.xz.sha256"
     }
