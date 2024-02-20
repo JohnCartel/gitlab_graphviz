@@ -16,11 +16,8 @@ used to texture-fill the node shapes. However, if
 <code>[shape]({{< ref "/docs/attrs/shape.md" >}})=point</code>,
 a node is drawn as a 3D sphere.
 
-{{< card header="Example: simple graph, rendered with `-Tvrml`">}}
-```
+{{< card code=true header="Example: simple graph, rendered with `-Tvrml`">}}
 $ echo 'digraph { a->b }' | dot -Tvrml
-```
-```
 #VRML V2.0 utf8
 Group { children [
   Transform {
@@ -109,5 +106,4 @@ Transform {
   ] }
   Viewpoint {position 1.000 2.000 6.438}
 ] }
-```
 {{</ card >}}

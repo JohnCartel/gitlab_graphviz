@@ -30,11 +30,8 @@ the subgraph or node in the `objects` array. This also holds
 true for the edges in the `objects` array. Note that this format
 allows clustered graphs, where edges can connect clusters as well as nodes.
 
-{{< card header="Example: simple graph rendered with `-Tdot_json`">}}
-```
+{{< card code=true header="Example: simple graph rendered with `-Tdot_json`">}}
 $ echo 'digraph { a->b }' | dot -Tdot_json
-```
-```json
 {
   "name": "%3",
   "directed": true,
@@ -60,14 +57,10 @@ $ echo 'digraph { a->b }' | dot -Tdot_json
     }
   ]
 }
-```
 {{< /card >}}
 
-{{< card header="Example: simple graph rendered with `-Txdot_json`">}}
-```
+{{< card code=true header="Example: simple graph rendered with `-Txdot_json`">}}
 $ echo 'digraph { a->b }' | dot -Txdot_json
-```
-```dot
 {
   "name": "%3",
   "directed": true,
@@ -93,15 +86,11 @@ $ echo 'digraph { a->b }' | dot -Txdot_json
     }
   ]
 }
-```
 {{< /card >}}
 
 
-{{< card header="Example: simple graph rendered with `-Tjson0`">}}
-```
+{{< card code=true header="Example: simple graph rendered with `-Tjson0`">}}
 $ echo 'digraph { a->b }' | dot -Tjson0
-```
-```dot
 {
   "name": "%3",
   "directed": true,
@@ -135,14 +124,10 @@ $ echo 'digraph { a->b }' | dot -Tjson0
     }
   ]
 }
-```
 {{< /card >}}
 
-{{< card header="Example: simple graph rendered with `-Tjson`">}}
-```
+{{< card code=true header="Example: simple graph rendered with `-Tjson`">}}
 echo 'digraph { a->b }' | dot -Tjson
-```
-```json
 {
   "name": "%3",
   "directed": true,
@@ -291,7 +276,6 @@ echo 'digraph { a->b }' | dot -Tjson
     }
   ]
 }
-```
 {{< /card >}}
 
 <style>
