@@ -17,16 +17,12 @@ These formats produce output in the
 Using `canon` produces a pretty printed version of the input,
 with no layout performed.
 
-{{< card header="Example: simple graph, canonicalized formatting with `-Tcanon`">}}
-```
+{{< card code=true header="Example: simple graph, canonicalized formatting with `-Tcanon`">}}
 $ echo 'digraph { a->b }' | dot -Tcanon
-```
-```dot
 digraph {
         node [label="\N"];
         a -> b;
 }
-```
 {{</ card >}}
 
 ## dot / gv
@@ -52,11 +48,8 @@ assigned a [`pos`]({{< ref "/docs/attrs/pos.md" >}}) attribute,
 and if the edge has a label, the label position
 is given in [`lp`]({{< ref "/docs/attrs/lp.md" >}}).
 
-{{< card header="Example: simple graph, outputting layout positioning with `-Tdot`">}}
-```
+{{< card code=true header="Example: simple graph, outputting layout positioning with `-Tdot`">}}
 $ echo 'digraph { a->b }' | dot -Tdot
-```
-```dot
 digraph {
         graph [bb="0,0,54,108"];
         node [label="\N"];
@@ -68,7 +61,6 @@ digraph {
              width=0.75];
         a -> b  [pos="e,27,36.104 27,71.697 27,63.983 27,54.712 27,46.112"];
 }
-```
 {{</ card >}}
 
 ## xdot
@@ -238,11 +230,8 @@ Version info:
 | &gt;1.6      | 2.35             | Add STRIKE-THROUGH bit for`t`
 | &gt;1.7      | 2.37             | Add OVERLINE for `t`
 
-{{< card header="Example: simple graph, outputting layout positioning & drawing information with `-Txdot`">}}
-```
+{{< card code=true header="Example: simple graph, outputting layout positioning & drawing information with `-Txdot`">}}
 $ echo 'digraph { a->b }' | dot -Txdot
-```
-```dot
 digraph {
         graph [_draw_="c 9 -#fffffe00 C 7 -#ffffff P 4 0 0 0 108 54 108 54 0 ",
              bb="0,0,54,108",

@@ -7,11 +7,8 @@ params:
 Scene-description language for 3D modelling for the 
 [Persistence of Vision Raytracer](http://www.povray.org/).
 
-{{< card header="Example: simple graph, rendered with `-Tpov`">}}
-```
+{{< card code=true header="Example: simple graph, rendered with `-Tpov`">}}
 $ echo 'digraph { a->b }' | dot -Tpov
-```
-```
 #version 3.6;
 global_settings { assumed_gamma 1.0 }
 #default { finish { ambient 0.1 diffuse 0.9 } }
@@ -147,5 +144,4 @@ polygon { 3,
 //*** end_edge
 //*** end_page
 //*** end_graph
-```
 {{</ card >}}

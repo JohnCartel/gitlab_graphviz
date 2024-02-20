@@ -7,11 +7,8 @@ params:
 Output is given in the text-based PIC language developed for troff.
 See [PIC language](https://en.wikipedia.org/wiki/Pic_language).
 
-{{< card header="Example outputs of a simple graph with two nodes connected with an edge:">}}
-```
+{{< card code=true header="Example outputs of a simple graph with two nodes connected with an edge:">}}
 $ echo 'digraph { a->b }' | dot -Tpic
-```
-```
 #  Creator: graphviz version 2.47.1 (20210417.1919)
 #  Title: %3
 #  save point size and font
@@ -82,5 +79,4 @@ move to (35, 50); line to (31, 40); line to (28, 50); line to (35, 50)
 #  restore point size and font
 .ps \n(.S
 .ft \n(DF
-```
 {{</ card >}}
