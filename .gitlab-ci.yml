@@ -24,7 +24,7 @@ html5validator:
 
 hyperlinkcheck:
   image:
-    name: ghcr.io/untitaker/hyperlink:0.1.27
+    name: ghcr.io/untitaker/hyperlink:0.1.32
     # Not totally sure why, but the default entrypoint of "hyperlink" gives errors like
     # "error: Found argument '-c' which wasn't expected, or isn't valid in this context"
     # Instead, unset the entrypoint, and call hyperlink ourselves below.
