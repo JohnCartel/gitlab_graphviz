@@ -36,7 +36,6 @@ machine for development. Here's how:
   list of releases to see the extended edition.
   
   * macOS users can install with Homebrew: `brew install hugo`
-  * Ubuntu 19.04 users can install with apt: `sudo apt install hugo`
 
 ### Install Git
 
