@@ -1,7 +1,7 @@
 ---
 title: Plain Text
 description: Simple, line-based language
-params:
+format:
 - plain
 - plain-ext
 ---

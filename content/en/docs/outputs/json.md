@@ -1,7 +1,7 @@
 ---
 title: JSON
 description: JavaScript Object Notation
-params:
+format:
 - json
 - json0
 - dot_json

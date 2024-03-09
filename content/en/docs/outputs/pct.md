@@ -1,7 +1,7 @@
 ---
 title: PICT
 description: Apple PICT
-params:
+format:
 - pct
 - pict
 ---

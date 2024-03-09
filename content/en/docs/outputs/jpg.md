@@ -1,7 +1,7 @@
 ---
 title: JPEG
 description: Joint Photographic Experts Group
-params:
+format:
 - jpg
 - jpeg
 - jpe

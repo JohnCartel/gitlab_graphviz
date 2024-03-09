@@ -1,7 +1,7 @@
 ---
 title: Imagemap
 description: 'Image Map: Server-side and client-side'
-params:
+format:
 - imap
 - imap_np
 - ismap

@@ -1,7 +1,7 @@
 ---
 title: PDF
 description: Portable Document Format
-params:
+format:
 - pdf
 ---
 Produces [PDF](http://www.adobe.com/devnet/pdf/) output.

@@ -1,7 +1,7 @@
 ---
 title: X11
 description: X11 Window
-params:
+format:
 - xlib
 - x11
 ---

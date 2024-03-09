@@ -1,7 +1,7 @@
 ---
 title: GD/GD2
 description: LibGD
-params:
+format:
 - gd
 - gd2
 ---
