@@ -6,7 +6,7 @@ stages:
 build_site:
   image:
     # Copied from https://github.com/google/docsy-example/blob/2bc1142e4466392ae2f5f58b0d3a8be13ca42482/Dockerfile
-    name: floryn90/hugo:0.111.3-ext-alpine-ci
+    name: floryn90/hugo:0.123.8-ext-alpine-ci
   stage: build
   script:
     - hugo
@@ -37,7 +37,7 @@ hyperlinkcheck:
 pages:
   image:
     # Copied from https://github.com/google/docsy-example/blob/2bc1142e4466392ae2f5f58b0d3a8be13ca42482/Dockerfile
-    name: floryn90/hugo:0.111.3-ext-alpine-ci
+    name: floryn90/hugo:0.123.8-ext-alpine-ci
   stage: deploy
   script:
     # https://github.com/klakegg/docker-hugo/issues/41#issuecomment-805607666
