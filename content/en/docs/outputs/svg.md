@@ -1,7 +1,7 @@
 ---
 title: SVG
 description: Scalable Vector Graphics
-params:
+format:
 - svg
 - svgz
 ---

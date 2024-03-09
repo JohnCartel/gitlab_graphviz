@@ -15,7 +15,7 @@
             <a href="{{ $manualLink }}"{{ with .Params.manualLinkTitle }} title="{{ . }}"{{ end }}{{ with .Params.manualLinkTarget }} target="{{ . }}"{{ if eq . "_blank" }} rel="noopener"{{ end }}{{ end }}>{{- .Title -}}</a>
           </td>
           <td>
-            {{ range $i, $v := .Params.params }}
+            {{ range $i, $v := .Params.format }}
             {{ if $i }}<br>{{ end }}
             <code>{{$v}}</code>
             {{end}}

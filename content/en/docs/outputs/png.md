@@ -1,7 +1,7 @@
 ---
 title: PNG
 description: Portable Network Graphics
-params:
+format:
 - png
 ---
 Produces output in the [PNG (Portable Network Graphics) format](https://en.wikipedia.org/wiki/Portable_Network_Graphics).

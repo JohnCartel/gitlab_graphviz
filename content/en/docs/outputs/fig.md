@@ -1,7 +1,7 @@
 ---
 title: FIG
 description: Xfig
-params:
+format:
 - fig
 ---
 Outputs graphs in the [FIG graphics language](https://en.wikipedia.org/wiki/Xfig).

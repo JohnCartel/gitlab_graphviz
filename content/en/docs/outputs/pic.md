@@ -1,7 +1,7 @@
 ---
 title: PIC
 description: Brian Kernighan's Diagram Language
-params:
+format:
 - pic
 ---
 Output is given in the text-based PIC language developed for troff.

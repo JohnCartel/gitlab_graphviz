@@ -1,7 +1,7 @@
 ---
 title: BMP
 description: Windows Bitmap
-params:
+format:
 - bmp
 ---
 Outputs images in the [Windows BMP format](https://en.wikipedia.org/wiki/BMP_file_format).

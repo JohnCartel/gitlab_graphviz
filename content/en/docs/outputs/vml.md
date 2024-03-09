@@ -1,7 +1,7 @@
 ---
 title: VML
 description: Vector Markup Language.
-params:
+format:
 - vml
 - vmlz
 ---

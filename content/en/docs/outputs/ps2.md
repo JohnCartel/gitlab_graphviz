@@ -1,7 +1,7 @@
 ---
 title: PS/PDF
 description: Adobe PostScript for Portable Document Format
-params:
+format:
 - ps2
 ---
 Produces PostScript output with PDF notations.

@@ -1,6 +1,6 @@
 {{ range .Page.Pages }}
-<H3 ID="d:{{ index .Params.params 0 }}">
-{{- range $i, $p := .Params.params -}}
+<H3 ID="d:{{ index .Params.format 0 }}">
+{{- range $i, $p := .Params.format -}}
   {{- if $i -}}, {{ end -}}
   <A {{ if $i }}NAME="d:{{$p}}"{{ end }} HREF="#a:{{$p}}">{{$p}}</A>
 {{- end -}}

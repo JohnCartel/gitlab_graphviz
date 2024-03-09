@@ -1,7 +1,7 @@
 ---
 title: PS
 description: Adobe PostScript
-params:
+format:
 - ps
 ---
 Produces [Adobe PostScript format output](https://en.wikipedia.org/wiki/PostScript).

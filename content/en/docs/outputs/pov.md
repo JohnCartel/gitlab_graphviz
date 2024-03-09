@@ -1,7 +1,7 @@
 ---
 title: POV-Ray
 description: Persistence of Vision Raytracer (prototype)
-params:
+format:
 - pov
 ---
 Scene-description language for 3D modelling for the 

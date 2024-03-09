@@ -1,7 +1,7 @@
 ---
 title: WBMP
 description: Wireless Bitmap
-params:
+format:
 - wbmp
 ---
 Produces output in the monochrome [Wireless BitMap (WBMP)

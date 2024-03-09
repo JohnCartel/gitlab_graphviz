@@ -1,7 +1,7 @@
 ---
 title: DOT
 description: Graphviz Language
-params:
+format:
 - canon
 - dot
 - gv

@@ -1,7 +1,7 @@
 ---
 title: EPS
 description: Encapsulated PostScript
-params:
+format:
 - eps
 ---
 Produces [Encapsulated PostScript](https://en.wikipedia.org/wiki/Encapsulated_PostScript) output.

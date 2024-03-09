@@ -1,7 +1,7 @@
 ---
 title: WebP
 description: WebP
-params:
+format:
 - webp
 ---
 Produces output in the image format for the Web (WEBP) format, optimized for

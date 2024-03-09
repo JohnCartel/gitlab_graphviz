@@ -1,7 +1,7 @@
 ---
 title: VRML
 description: Virtual Reality Modeling Language
-params:
+format:
 - vrml
 ---
 Outputs graphs in the [VRML](https://en.wikipedia.org/wiki/VRML) format.

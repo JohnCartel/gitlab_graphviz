@@ -1,7 +1,7 @@
 ---
 title: TIFF
 description: Tag Image File Format
-params:
+format:
 - tif
 - tiff
 ---
