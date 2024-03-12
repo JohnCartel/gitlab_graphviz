@@ -55,10 +55,11 @@ anchor = "smart"
 [languages]
 [languages.en]
 title = "Graphviz"
-description = "Graph Visualization Software"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
+[languages.en.params]
+description = "Graph Visualization Software"
 
 [markup]
   [markup.goldmark]
