@@ -12,10 +12,10 @@ The library accepts as input:
 *   two endpoints
 
 *   optional endpoint tangent vectors
-*   an admissable region where a curve may be drawn to connect the endpoints
+*   an admissible region where a curve may be drawn to connect the endpoints
 
 It returns a Bezier curve that connects the endpoints 
-and stays within the admissable region.  The curve is
+and stays within the admissible region.  The curve is
 smooth and close to a shortest path.  
 
 ### Spline-o-matic Solves Two Types of Problems

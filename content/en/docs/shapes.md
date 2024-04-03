@@ -658,7 +658,7 @@ Attribute values must appear in double quotes.
   boundary.
 
 <span id="height">HEIGHT="value"</span>
-: specifies the mininum height, in points, of the object. The height
+: specifies the minimum height, in points, of the object. The height
   includes the contents, any spacing and the border. Unless
   [**_FIXEDSIZE_**](#fixedsize) is true, the height will be expanded to allow
   the contents to fit.
@@ -776,7 +776,7 @@ Attribute values must appear in double quotes.
   *   `TOP` aligns the object on the top.
 
 <span id="width">WIDTH="value"</span>
-: specifies the mininum width, in points, of the object. The width
+: specifies the minimum width, in points, of the object. The width
   includes the contents, any spacing and the border. Unless
   [**_FIXEDSIZE_**](#fixedsize) is true, the width will be expanded to allow
   the contents to fit.

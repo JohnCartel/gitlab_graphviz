@@ -24,7 +24,7 @@ digraph {
 }
 {{< /dot_card >}}
 
-making all edges invisible, the `b->c` edge can overrride this via:
+making all edges invisible, the `b->c` edge can override this via:
 
 {{< dot_card >}}
 digraph {

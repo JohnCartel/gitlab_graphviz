@@ -125,7 +125,7 @@ files.
 
 To build Graphviz:
 *   Install the third-party libraries. This is most easily done by installing
-    a Windows binary verion of [GTK 2.0](http://www.gtk.org) or later.
+    a Windows binary version of [GTK 2.0](https://www.gtk.org) or later.
 *   Download the [Graphviz source package](https://www.graphviz.org/download/source/),
     and copy over either the stable release `graphviz-`_VERSION_`.tar.gz`
     or the development source package `graphviz-working.tar.gz`.

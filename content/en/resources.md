@@ -107,7 +107,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 
 ### Python
 
-*   [Pydot](https://code.google.com/p/pydot/) \- a Python interface to Graphviz (Windows comptible).
+*   [Pydot](https://code.google.com/p/pydot/) \- a Python interface to Graphviz (Windows compatible).
 *   [Python-Graph](https://code.google.com/p/python-graph/) \- A library for working with graphs in Python.
 *   [PyGraphviz](http://networkx.lanl.gov/pygraphviz/) \- a Python interface to Graphviz similar to NetworkX.
 *   [yapgvb](http://yapgvb.sourceforge.net/) Yet Another Graphviz Python Binding \[Lonnie Princehouse\]
@@ -208,7 +208,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 
 ### Common Lisp
 
-*   [s-graphviz](https://github.com/jingtaozf/s-graphviz) (2014-2020) \- an S-expression presentation of GraphViz. The original idea is from S-DOT, but with a full compatiblity of original DOT syntax by following its language definition. \[Xu Jingtao\]
+*   [s-graphviz](https://github.com/jingtaozf/s-graphviz) (2014-2020) \- an S-expression presentation of GraphViz. The original idea is from S-DOT, but with a full compatibility of original DOT syntax by following its language definition. \[Xu Jingtao\]
 *   [cl-dot](https://github.com/michaelw/cl-dot) (2005-2020) generates dot (a program in the GraphViz suite) output from arbitrary Lisp data.
 *   [s-dot2](https://notabug.org/cage/s-dot2/) (2018) \- Fork of S-DOT
 *   [cl-graphviz](https://github.com/necto/cl-graphviz) (2012-2015)  provides a CFFI based interface for Graphviz and integrates into `cl-graph`.
@@ -267,7 +267,7 @@ Users interested in general network monitoring tools can find a comparison of so
 
 *   [Keras `plot_model` function](https://keras.io/api/utils/model_plotting_utils/) outputs Keras neural networks to Graphviz format.
 *   Andreas Romeyke's [txt2graph](http://andreas-romeyke.de/txt2graph/txt2graph.html) \- visualize the structure and dependencies of a text read from stdin and generates a dot-File for graphviz to stdout
-*   [Ontoviz](http://protegewiki.stanford.edu/wiki/OntoViz) is a plugin for displaying knowledge base diagrams in the [Protoge](http://protege.stanford.edu/) system
+*   [Ontoviz](http://protegewiki.stanford.edu/wiki/OntoViz) is a plugin for displaying knowledge base diagrams in the [Protégé](https://protege.stanford.edu/) system
 * `rdfpuml` (part of [rdf2rml](https://github.com/VladimirAlexiev/rdf2rml)) generates PlantUML diagrams from RDF graphs. (PlantUML uses Graphviz for layout)
 *   [CanooNet](http://www.canoo.net/services/WordformationDictionary/Controller) , a German word formation dictionary. (Try [_Blockflöte_](http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&input=blockfl%F6te&features=%28Cat+N%29%28Gender+F%29&lang=de&country=CH&lookup=caseInSensitive), [_Hochschule_](http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&input=hochschule&features=%28Cat+N%29%28Gender+F%29&lang=de&country=CH&lookup=caseInSensitive), or [_Massanzug_](http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&input=massanzug&features=%28Cat+N%29%28Gender+M%29&lang=de&country=CH&lookup=caseInSensitive) in the entry field)
 *   [Topic extraction using Wikipedia data](http://blog.prashanthellina.com/topic-extraction-using-wikipedia-data.html).

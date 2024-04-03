@@ -6,7 +6,7 @@ type: docs
 
 ## Graphviz Papers
 
-* <a href="/documentation/EGKNW03.pdf" target="_blank">Graphviz and Dynagraph - Static and Dynamic Graph Drawing Tools</a> - a condensed overview (<a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.96.3776">cite</a>)
+* <a href="/documentation/EGKNW03.pdf" target="_blank">Graphviz and Dynagraph - Static and Dynamic Graph Drawing Tools</a> - a condensed overview (<a href="https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.96.3776">cite</a>)
 * <a href="/documentation/GN99.pdf" target="_blank">An open graph visualization system and its applications to software engineering</a> - longer overview, preferred for citation (<a target="_blank" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.106.5621">cite</a>)
 * <a href="/documentation/GKN04.pdf" target="_blank">Graph Drawing by Stress Majorization</a>  - an improved algorithm for neato (<a href="https://link.springer.com/chapter/10.1007/978-3-540-31843-9_25" target="_blank">cite</a>)
 * <a href="/documentation/GKN04a.pdf" target="_blank">Topological Fisheye Views for Visualizing Large Graphs</a> - topological-based distorted views for large graphs

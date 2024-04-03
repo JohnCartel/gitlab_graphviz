@@ -12,7 +12,7 @@ description: Specifies how the distance matrix is computed for the input graph
 ---
 
 The distance matrix specifies the ideal distance between every pair of nodes.
-`neato` attemps to find a layout which best achieves these distances. By
+`neato` attempts to find a layout which best achieves these distances. By
 default, it uses the length of the shortest path, where the length of each
 edge is given by its [`len`]({{< ref "len.md" >}}) attribute.
 
