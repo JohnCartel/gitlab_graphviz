@@ -82,7 +82,7 @@ Graphviz.  Results are guaranteed when Graphviz outputs raster formats,
 because freetype immediately renders the fonts into pixels.  On the
 other hand, with path-based formats like Postscript ([`-Tps`](/docs/outputs/ps/)) and SVG ([`-Tsvg`](/docs/outputs/svg/)),
 final rendering may be done on a different platform altogether, with
-different font files installed.  Clearly, Your Milage May Vary.  In the
+different font files installed.  Clearly, Your Mileage May Vary.  In the
 case of Postscript, the driver in Graphviz passes the expected metrics
 of the text block down to the renderer, and asks it to make a final stretch
 (or squeeze) to force the text to fit the metrics that were in effect at
@@ -207,7 +207,7 @@ as specified by the fontconfig `fonts.dtd`. Possible choices for the
 
 See: http://www.fontconfig.org/fontconfig-user.html
 
-### Can I specifiy a font by filename instead of by familyname?
+### Can I specify a font by filename instead of by familyname?
 
 Sorry, the answer is no.  (The reason is that for this to
 work, Graphviz has to intercept the font lookup before
