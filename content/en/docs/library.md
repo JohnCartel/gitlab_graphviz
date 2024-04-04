@@ -8,6 +8,7 @@ Library User guides:
 * [Cgraph library tutorial](/pdf/cgraph.pdf)
 * [Using Graphviz as a library](/pdf/libguide.pdf)
 * [Using Graphviz as a library (pre-2.30 version)](/pdf/oldlibguide.pdf)
+* [Graphviz APIs and internals reference](https://graphviz.gitlab.io/graphviz/doxygen/)
 
 ## Graphviz C Libraries
 
@@ -20,7 +21,7 @@ PDF manuals:
 * [pathplan](/pdf/pathplan.3.pdf)
 * [xdot](/pdf/xdot.3.pdf)
 
-Sample C Programs using Graphviz as a Library:
+[Sample C Programs using Graphviz as a Library](https://graphviz.gitlab.io/graphviz/doxygen/dir_0cc8bdc7e61dc2f268d311777515ab5c.html):
 
 * [`demo.c`](https://gitlab.com/graphviz/graphviz/-/blob/main/dot.demo/demo.c)
 * [`dot.c`](https://gitlab.com/graphviz/graphviz/-/blob/main/dot.demo/dot.c)
