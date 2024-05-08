@@ -20,6 +20,9 @@ The `charset` attribute is case-insensitive.
 Note that if the character encoding used in the input does not match the
 `charset` value, the resulting output may be very strange.
 
+It is not possible to use [HTML-like labels](/doc/info/shapes.html#html) in
+combination with Big-5 encoding.
+
 {{< dot_card header="Example" >}}
 digraph G {
   charset="UTF-8"
