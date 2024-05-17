@@ -43,7 +43,7 @@ You may also find it useful to try one of the following third-party sites.
   sudo apt install graphviz
   ```
 
-* [Fedora project](https://apps.fedoraproject.org/packages/graphviz)\*, [Redhat Enterprise Linux, or CentOS](http://rpmfind.net/linux/rpm2html/search.php?query=graphviz)\*
+* [Fedora project](https://apps.fedoraproject.org/packages/graphviz)\*, Rocky Linux, [Redhat Enterprise Linux, or CentOS](http://rpmfind.net/linux/rpm2html/search.php?query=graphviz)\*
 
   ```bash
   sudo yum install graphviz
