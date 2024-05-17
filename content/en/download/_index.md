@@ -61,8 +61,6 @@ You may also find it useful to try one of the following third-party sites.
   sudo yum install graphviz
   ```
 
-<!---  The problem is that this probably just points back to graphviz.org * [Fedora](http://fedoraproject.org/)* On a working Fedora system, use `yum list "graphviz*"` to see all available Graphviz packages.  --->
-
 ### Windows
 
 * Stable Windows install packages, built with Microsoft Visual Studio 16 2019:
