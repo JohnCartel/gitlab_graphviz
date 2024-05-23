@@ -45,7 +45,8 @@ make install
 ```
 
 If you are building from Git sources, then you must have
-recent versions of `libtool`, `libltdl-dev`, `automake`, and `autoconf`.
+recent versions of `libtool`, `libltdl-dev`, `automake`, `autoconf`, and
+`pkg-config`/`pkgconf`.
 Build with:
 
 ```
