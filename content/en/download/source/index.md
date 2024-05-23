@@ -64,7 +64,8 @@ You can either download the zip file or clone the repository. Instructions
 for the latter can be found [here](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#clone-a-repository).
 
 If you are taking this approach, then you must have recent versions of
-"libtool", "libltdl-dev", "automake", and "autoconf". The build process is
+"libtool", "libltdl-dev", "automake", "autoconf", and "pkg-config"/"pkgconf".
+The build process is
 basically the same as above with the addition of one more step:
 
 ```bash
