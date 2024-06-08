@@ -28,11 +28,6 @@ There are two experimental modes in `neato`:
 * `mode="ipsep"`, which allows the graph to specify minimum vertical and horizontal distances between nodes.
 (See the [`sep`]({{< ref "sep.md" >}}) attribute.)
 
-For [`sfdp`](/docs/layouts/sfdp/), the default is `mode="spring"`, which corresponds to using a
-spring-electrical model. Setting `mode="maxent"` causes a similar model
-to be run but one that also takes into account edge lengths specified by the
-[`len`]({{< ref "len.md" >}}) attribute.
-
 [^1]: [Gansner, E.R., Koren, Y., North, S. (2005). Graph Drawing by Stress Majorization. In: Pach, J. (eds) Graph Drawing. GD 2004. Lecture Notes in Computer Science, vol 3383. Springer, Berlin, Heidelberg.](/documentation/GKN04.pdf)
 [^2]: [Tomihisa Kamada, Satoru Kawai, An algorithm for drawing general undirected graphs, Information Processing Letters, Volume 31, Issue 1, 1989, Pages 7-15.](https://doi.org/10.1016%2F0020-0190%2889%2990102-6)
 [^3]: [J. X. Zheng, S. Pawar and D. F. M. Goodman, "Graph Drawing by Stochastic Gradient Descent," in IEEE Transactions on Visualization and Computer Graphics, vol. 25, no. 9, pp. 2738-2748, 1 Sept. 2019, doi: 10.1109/TVCG.2018.2859997.](https://ieeexplore.ieee.org/document/8419285)
