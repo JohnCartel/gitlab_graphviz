@@ -3,13 +3,11 @@
   "extends": [
     "config:recommended"
   ],
-  {
-    "packageRules": [
-      {
-        "matchManagers": ["gomod"],
-        "matchDepTypes": ["indirect"],
-        "enabled": true
-      }
-    ]
-  }
+  "packageRules": [
+    {
+      "matchManagers": ["gomod"],
+      "matchDepTypes": ["indirect"],
+      "enabled": true
+    }
+  ]
 }
