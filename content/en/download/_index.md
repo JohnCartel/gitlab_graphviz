@@ -37,31 +37,17 @@ Precompiled binaries are available attached to releases on Gitlab,
 https://gitlab.com/graphviz/graphviz/-/releases.
 You may also find it useful to try one of the following third-party sites.
 
-* [Ubuntu packages](https://packages.ubuntu.com/search?keywords=graphviz&searchon=names)*
+* [Debian](http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz)\*, [Ubuntu](https://packages.ubuntu.com/search?keywords=graphviz&searchon=names)\*
 
   ```bash
   sudo apt install graphviz
   ```
 
-* [Fedora project](https://apps.fedoraproject.org/packages/graphviz)*
+* [Fedora project](https://apps.fedoraproject.org/packages/graphviz)\*, Rocky Linux, [Redhat Enterprise Linux, or CentOS](http://rpmfind.net/linux/rpm2html/search.php?query=graphviz)\*
 
   ```bash
-  sudo yum install graphviz
+  sudo dnf install graphviz
   ```
-
-* [Debian packages](http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz)*
-
-  ```bash
-  sudo apt install graphviz
-  ```
-
-* [Stable and development rpms for Redhat Enterprise, or CentOS systems](http://rpmfind.net/linux/rpm2html/search.php?query=graphviz)*
-
-  ```bash
-  sudo yum install graphviz
-  ```
-
-<!---  The problem is that this probably just points back to graphviz.org * [Fedora](http://fedoraproject.org/)* On a working Fedora system, use `yum list "graphviz*"` to see all available Graphviz packages.  --->
 
 ### Windows
 
