@@ -380,7 +380,7 @@ or [`<B>`](#b), any space immediately before or after this will cause a syntax e
 the label
 
 ```
-< <U><TABLE><TR><TD>a</TD></TR></U>>
+< <U><TABLE><TR><TD>a</TD></TR></TABLE></U>>
 ```
 
 is not legal. Removing either the space or the `<U>...</U>` will fix this.
