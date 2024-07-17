@@ -17,14 +17,14 @@ build_site:
     HUGO_ENV: production
 
 html5validator:
-  image: cyb3rjak3/html5validator
+  image: cyb3rjak3/html5validator:pypi-v4.2.1@sha256:e67d3603b41bb5de36931cafe98589e9b6e9310ec576eae0c3cc0151dac9267e
   stage: test
   script:
     - tests/html_validate_test
 
 hyperlinkcheck:
   image:
-    name: ghcr.io/untitaker/hyperlink:0.1.32
+    name: ghcr.io/untitaker/hyperlink:0.1.32@sha256:195efe258cc8c2cb8c824a11d3ff606e961d932a92bf2611dec984cd2660d908
     # Not totally sure why, but the default entrypoint of "hyperlink" gives errors like
     # "error: Found argument '-c' which wasn't expected, or isn't valid in this context"
     # Instead, unset the entrypoint, and call hyperlink ourselves below.
