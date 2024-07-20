@@ -7,7 +7,7 @@ title: shape
 types:
 - shape
 used_by: "N"
-description: Sets the [shape](/doc/info/shapes.html) of a node
+description: Sets the [shape](/docs/shapes/) of a node
 ---
 
 {{< dot_card >}}

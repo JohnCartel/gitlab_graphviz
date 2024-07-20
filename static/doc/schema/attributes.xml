@@ -1070,7 +1070,7 @@
 				<html:p>
 					Text label attached to objects.
 					If a node's <html:a rel="attr">shape</html:a> is record, then the label can
-					have a <html:a href="http://www.graphviz.org/doc/info/shapes.html#record">special format</html:a> 
+					have a <html:a href="http://www.graphviz.org/docs/shapes/#record">special format</html:a>
 					which describes the record layout.
 				</html:p>
 			</xsd:documentation>
@@ -1762,7 +1762,7 @@
 				<html:p>
 					Set number of peripheries used in polygonal shapes and cluster
 					boundaries. Note that
-					<html:a href="http://www.graphviz.org/doc/info/shapes.html#epsf">user-defined shapes</html:a> are treated as a 
+					<html:a href="http://www.graphviz.org/docs/shapes/#epsf">user-defined shapes</html:a> are treated as a
 					form of box shape, so the default
 					peripheries value is 1 and the user-defined shape will be drawn in
 					a bounding rectangle. Setting <html:code>peripheries=0</html:code> will turn this off.

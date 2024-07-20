@@ -188,7 +188,7 @@ The style attribute affects the basic appearance of nodes, edges and graphs,
 but has no effect on any text used in labels. For this, use the
 [`fontname`]({{< ref "../attrs/fontname.md" >}}), [`fontsize`]({{< ref "../attrs/fontsize.md" >}}) and
 [`fontcolor`]({{< ref "../attrs/fontcolor.md" >}}) attributes, or the `<FONT>`, `<B>`, `<I>`, etc.
-elements in [HTML-like labels]({{< ref "../shapes.md#html" >}}).
+elements in [HTML-like labels]({{< ref "../shapes/_index.md#html" >}}).
 
 The `setlinewidth` style value can be used for more control over the width of
 node borders and edges than is allowed by `bold`. This style value takes an
