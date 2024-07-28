@@ -99,7 +99,7 @@ _barriers);
 
 ## Distribution
 
-The source release is on our [download page]({{< ref "/download/_index.md" >}}).
+The source release is on our [download page]({{< relref "/download/_index.md" >}}).
 Considerable software know-how is needed to work with it.
 The GUI is written in TCL.  The path planner is built as a static library. 
 The TCL layer includes this and other functions as a dynamic library.

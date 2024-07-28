@@ -10,7 +10,7 @@ used_by: G
 description: A string in the [`xdot` format](/docs/attr-types/xdot/) specifying an arbitrary background
 ---
 During rendering, the canvas is first filled as described in the
-[`bgcolor` attribute]({{< ref "bgcolor.md" >}}).
+[`bgcolor` attribute]({{< relref "bgcolor.md" >}}).
 
 Then, if `_background` is defined, the graphics
 operations described in the string are performed on the canvas.

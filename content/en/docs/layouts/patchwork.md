@@ -7,7 +7,7 @@ description: >
 
 Each cluster is given an area based on the areas specified by the clusters and
 nodes it contains. The areas of nodes and empty clusters can be specified by
-the [`area`]({{< ref "/docs/attrs/area.md" >}}) attribute. The default `area`
+the [`area`]({{< relref "/docs/attrs/area.md" >}}) attribute. The default `area`
 is 1.
 
 The root graph is laid out as a square. Then, recursively, the region of a

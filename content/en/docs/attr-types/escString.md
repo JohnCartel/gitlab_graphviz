@@ -18,7 +18,7 @@ head node.
 In all cases, the substring `\L` is replaced by the object's label attribute.
 
 In addition, if the associated attribute is
-[`label`]({{< ref "/docs/attrs/label.md" >}}), [`headlabel`]({{< ref "/docs/attrs/headlabel.md" >}}) or [`taillabel`]({{< ref "/docs/attrs/taillabel.md" >}}),
+[`label`]({{< relref "/docs/attrs/label.md" >}}), [`headlabel`]({{< relref "/docs/attrs/headlabel.md" >}}) or [`taillabel`]({{< relref "/docs/attrs/taillabel.md" >}}),
 the escape sequences `\n`, `\l` and `\r`
 divide the label into lines, centered, left-justified, and right-justified,
 respectively.

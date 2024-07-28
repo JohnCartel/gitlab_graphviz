@@ -38,7 +38,7 @@ digraph {
 {{< /dot_card >}}
 
 Further details concerning the setting of attributes can be found
-in the description of the [DOT language.]({{< ref "../lang.md" >}})
+in the description of the [DOT language.]({{< relref "../lang.md" >}})
 
 At present, most device-independent units are either inches or
 <A ID="points" HREF="http://en.wikipedia.org/wiki/Point_(typography)">points</A>,
@@ -47,10 +47,10 @@ which we take as 72 points per inch.
 <P ID="undir_note"></P>
 
 **Note:** Some attributes, such as
-[`dir`]({{< ref "dir.md" >}}) or [`arrowtail`]({{< ref "arrowtail.md" >}}), are ambiguous when used in
-[DOT]({{< ref "../lang.md" >}}) with an undirected graph since the head and tail of an edge
+[`dir`]({{< relref "dir.md" >}}) or [`arrowtail`]({{< relref "arrowtail.md" >}}), are ambiguous when used in
+[DOT]({{< relref "../lang.md" >}}) with an undirected graph since the head and tail of an edge
 are meaningless. As a convention, the first time an undirected edge appears,
-the [DOT]({{< ref "../lang.md" >}})
+the [DOT]({{< relref "../lang.md" >}})
 parser will assign the left node as the tail node and the right node as
 the head. For example, the edge `A -- B` will have tail `A`
 and head `B`. It is the user's responsibility to handle such
@@ -66,8 +66,8 @@ the drawing will attach the tail label to node `A`.
 To avoid possible confusion when such attributes are required, the user
 is encouraged to use a directed graph.
 If it is important to make the graph appear undirected, this can be
-done using the [`dir`]({{< ref "dir.md" >}}), [`arrowtail`]({{< ref "arrowtail.md" >}}) or
-[`arrowhead`]({{< ref "arrowhead.md" >}}) attributes.
+done using the [`dir`]({{< relref "dir.md" >}}), [`arrowtail`]({{< relref "arrowtail.md" >}}) or
+[`arrowhead`]({{< relref "arrowhead.md" >}}) attributes.
 
 <P ID="k:bool"></P>
 

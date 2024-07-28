@@ -13,8 +13,8 @@ used_by: ENGC
 description: Text label attached to objects
 ---
 
-If a node's [`shape`]({{< ref "shape.md" >}}) is record, then the label can
-have a [special format]({{< ref "../shapes.md#record" >}})
+If a node's [`shape`]({{< relref "shape.md" >}}) is record, then the label can
+have a [special format]({{< relref "../shapes.md#record" >}})
 which describes the record layout.
 
 Note that a node's default label is `"\N"`, so the node's name or ID becomes
@@ -22,7 +22,7 @@ its label.
 
 Technically, a node's name can be an HTML string but this will not mean that
 the node's label will be interpreted as an [HTML-like
-label]({{< ref "../shapes.md#html" >}}). This is because the node's actual label is an
+label]({{< relref "../shapes.md#html" >}}). This is because the node's actual label is an
 ordinary string, which will be replaced by the raw bytes stored in the node's
 name.
 

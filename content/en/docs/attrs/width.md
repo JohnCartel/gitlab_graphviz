@@ -12,7 +12,7 @@ description: Width of node, in inches
 ---
 
 This is taken as the initial, minimum width of the node. If
-[`fixedsize`]({{< ref "fixedsize.md" >}}) is true, this will be the final width of the
+[`fixedsize`]({{< relref "fixedsize.md" >}}) is true, this will be the final width of the
 node. Otherwise, if the node label requires more width to fit, the node's
 width will be increased to contain the label.
 

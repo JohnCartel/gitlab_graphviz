@@ -12,9 +12,9 @@ used_by: E
 description: Tooltip annotation attached to the tail of an edge
 ---
 
-Used only if the edge has a [`tailURL`]({{< ref "tailURL.md" >}}) attribute.
+Used only if the edge has a [`tailURL`]({{< relref "tailURL.md" >}}) attribute.
 
-- [`edgetooltip`]({{< ref "edgetooltip.md" >}}).
-- [`headtooltip`]({{< ref "headtooltip.md" >}}).
-- [`labeltooltip`]({{< ref "labeltooltip.md" >}}).
-- [`tooltip`]({{< ref "tooltip.md" >}}).
+- [`edgetooltip`]({{< relref "edgetooltip.md" >}}).
+- [`headtooltip`]({{< relref "headtooltip.md" >}}).
+- [`labeltooltip`]({{< relref "labeltooltip.md" >}}).
+- [`tooltip`]({{< relref "tooltip.md" >}}).

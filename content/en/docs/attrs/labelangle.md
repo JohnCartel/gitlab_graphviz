@@ -10,8 +10,8 @@ types:
 used_by: E
 description: The angle (in degrees) in polar coordinates of the head & tail edge labels.
 ---
-Determines, along with [`labeldistance`]({{< ref "labeldistance.md" >}}),
-where the [`headlabel`]({{< ref "headlabel.md" >}}) / [`taillabel`]({{< ref "taillabel.md" >}}) are
+Determines, along with [`labeldistance`]({{< relref "labeldistance.md" >}}),
+where the [`headlabel`]({{< relref "headlabel.md" >}}) / [`taillabel`]({{< relref "taillabel.md" >}}) are
 placed with respect to the head / tail in polar coordinates.
 
 The origin in the coordinate system is the point where the edge touches the

@@ -18,7 +18,7 @@ Note that the margin is not part of the drawing but just empty space left
 around the drawing. The margin basically corresponds to a translation of
 drawing, as would be necessary to center a drawing on a page. Nothing is
 actually drawn in the margin. To actually extend the background of a drawing,
-see the [`pad`]({{< ref "pad.md" >}}) attribute.
+see the [`pad`]({{< relref "pad.md" >}}) attribute.
 
 For clusters, `margin` specifies the space between the nodes in the cluster
 and the cluster bounding box. By default, this is 8 points.

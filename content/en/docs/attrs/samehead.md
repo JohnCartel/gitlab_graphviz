@@ -15,6 +15,6 @@ This has no effect on loops.
 
 Prior to Graphviz 8.0.1, each node can have at most 5 unique `samehead` values.
 
-See [limitation]({{< ref "_index.md#undir_note" >}}).
+See [limitation]({{< relref "_index.md#undir_note" >}}).
 
-See also [`sametail`]({{< ref "sametail.md" >}}).
+See also [`sametail`]({{< relref "sametail.md" >}}).

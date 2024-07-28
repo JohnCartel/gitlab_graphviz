@@ -12,12 +12,12 @@ used_by: E
 description: If defined, `labelURL` is the link used for the label of an edge
 ---
 
-`labelURL` overrides any [`URL`]({{< ref "URL.md" >}}) defined for the edge.
+`labelURL` overrides any [`URL`]({{< relref "URL.md" >}}) defined for the edge.
 
 See also:
 
-- [`edgehref`]({{< ref "edgehref.md" >}}), [`edgeURL`]({{< ref "edgeURL.md" >}})
-- [`headhref`]({{< ref "headhref.md" >}}), [`headURL`]({{< ref "headURL.md" >}})
-- [`labelhref`]({{< ref "labelhref.md" >}}), [`labelURL`]({{< ref "labelURL.md" >}})
-- [`tailhref`]({{< ref "tailhref.md" >}}), [`tailURL`]({{< ref "tailURL.md" >}})
-- [`href`]({{< ref "href.md" >}}), [`URL`]({{< ref "URL.md" >}})
+- [`edgehref`]({{< relref "edgehref.md" >}}), [`edgeURL`]({{< relref "edgeURL.md" >}})
+- [`headhref`]({{< relref "headhref.md" >}}), [`headURL`]({{< relref "headURL.md" >}})
+- [`labelhref`]({{< relref "labelhref.md" >}}), [`labelURL`]({{< relref "labelURL.md" >}})
+- [`tailhref`]({{< relref "tailhref.md" >}}), [`tailURL`]({{< relref "tailURL.md" >}})
+- [`href`]({{< relref "href.md" >}}), [`URL`]({{< relref "URL.md" >}})

@@ -36,7 +36,7 @@ If Graphviz is not built with a high-level font library, fontname will be
 considered the name of a Type 1 or True Type font file. If you specify
 `fontname=schlbk`, the tool will look for a file named `schlbk.ttf` or `schlbk.pfa`
 or `schlbk.pfb` in one of the directories specified by the
-[`fontpath`]({{< ref "fontpath.md" >}}) attribute. The lookup does support various aliases
+[`fontpath`]({{< relref "fontpath.md" >}}) attribute. The lookup does support various aliases
 for the common fonts.
 
 {{< dot_card >}}

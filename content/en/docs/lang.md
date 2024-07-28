@@ -185,7 +185,7 @@ For this, it needs to know what character encoding is used.
 
 By default, DOT assumes the [UTF-8](https://en.wikipedia.org/wiki/UTF-8) character encoding. It also accepts
 the [Latin1 (ISO-8859-1)](https://en.wikipedia.org/wiki/ISO/IEC_8859-1) character set, assuming the input graph uses
-the **[charset]({{< ref "/docs/attrs/charset.md" >}})** attribute to
+the **[charset]({{< relref "/docs/attrs/charset.md" >}})** attribute to
 specify this. For graphs using other
 character sets, there are usually programs, such as `iconv`, which
 will translate from one character set to another.
@@ -193,7 +193,7 @@ will translate from one character set to another.
 Another way to avoid non-ASCII characters in labels is to use HTML entities
 for special characters. During label evaluation, these entities are
 translated into the underlying character. This
-[table]({{< ref "char.md" >}}) shows the supported entities, with their Unicode value, a typical
+[table]({{< relref "char.md" >}}) shows the supported entities, with their Unicode value, a typical
 glyph, and the HTML entity name. Thus, to include a lower-case Greek beta
 into a string, one can use the ASCII sequence `&beta;`.
 In general, one should only use entities that are allowed in the output

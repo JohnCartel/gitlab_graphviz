@@ -13,7 +13,7 @@ description: Skew factor for <code>[shape](/docs/attrs/shape)=polygon</code>
 
 Positive values skew top of polygon to right; negative to left.
 
-See also [`distortion`]({{< ref "distortion.md" >}}).
+See also [`distortion`]({{< relref "distortion.md" >}}).
 
 {{< dot_card header="Example">}}
 graph {

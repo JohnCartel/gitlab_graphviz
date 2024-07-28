@@ -10,7 +10,7 @@ types:
 used_by: E
 description: Font size of `headlabel` and `taillabel`
 ---
-Font size, [in points]({{< ref "_index.md#points" >}}), used for [`headlabel`]({{< ref "headlabel.md" >}}) and
-[`taillabel`]({{< ref "taillabel.md" >}}).
+Font size, [in points]({{< relref "_index.md#points" >}}), used for [`headlabel`]({{< relref "headlabel.md" >}}) and
+[`taillabel`]({{< relref "taillabel.md" >}}).
 
-If not set, defaults to edge's [`fontsize`]({{< ref "fontsize.md" >}}).
+If not set, defaults to edge's [`fontsize`]({{< relref "fontsize.md" >}}).

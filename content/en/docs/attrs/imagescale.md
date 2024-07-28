@@ -12,12 +12,12 @@ description: Controls how an image fills its containing node
 ---
 
 In general, the image is given its natural size,
-(cf. [`dpi`]({{< ref "dpi.md" >}})),
+(cf. [`dpi`]({{< relref "dpi.md" >}})),
 and the node size is made large enough to contain its image, its
 label, its margin, and its peripheries.
 
 Its width and height will also be at least as large as its
-minimum [`width`]({{< ref "width.md" >}}) and [`height`]({{< ref "height.md" >}}).
+minimum [`width`]({{< relref "width.md" >}}) and [`height`]({{< relref "height.md" >}}).
 If, however, `fixedsize=true`,
 the width and height attributes specify the exact size of the node.
 

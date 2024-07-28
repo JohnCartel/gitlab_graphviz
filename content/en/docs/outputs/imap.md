@@ -20,8 +20,8 @@ These can be used in a web page with
 a graphical form of the output, e.g. in JPEG, GIF or PNG format, to attach
 links to nodes and edges. 
 Graphviz generates an object's map information only if the object has a non-trival 
-[URL]({{< ref "/docs/attrs/URL.md" >}}) or [href]({{< ref "/docs/attrs/href.md" >}})
-attribute, or if it has an explicit [tooltip]({{< ref "/docs/attrs/tooltip.md" >}}) attribute.
+[URL]({{< relref "/docs/attrs/URL.md" >}}) or [href]({{< relref "/docs/attrs/href.md" >}})
+attribute, or if it has an explicit [tooltip]({{< relref "/docs/attrs/tooltip.md" >}}) attribute.
 
 `cmap` produces map files for client-side image maps. It's
 mostly identical to `cmapx`, but the latter is well-formed XML amenable
@@ -83,19 +83,19 @@ in the IMG attribute, and x.map will look like
 </map>
 ```
 
-[`URLs`]({{< ref "/docs/attrs/URL.md" >}}) can be attached to the root
+[`URLs`]({{< relref "/docs/attrs/URL.md" >}}) can be attached to the root
 graph, nodes and edges. If a node has a URL, clicking in the node
 will activate the link.
 If an edge has a URL, various
 points along the edge (but not necessarily the head or tail)
 will link to it. In addition, if the edge has a
-[`label`]({{< ref "/docs/attrs/label.md" >}}), that will link
+[`label`]({{< relref "/docs/attrs/label.md" >}}), that will link
 to the URL.
 As for the head of the edge, this is linked to the
-[`headURL`]({{< ref "/docs/attrs/headURL.md" >}}), if set.
+[`headURL`]({{< relref "/docs/attrs/headURL.md" >}}), if set.
 Otherwise, it is linked to the edge's URL if that is defined.
 The analogous description holds for the tail and the
-[`tailURL`]({{< ref "/docs/attrs/tailURL.md" >}}).
+[`tailURL`]({{< relref "/docs/attrs/tailURL.md" >}}).
 A URL associated with the graph is used as a default link.
 
 If the [`URL`](/docs/attrs/URL/)
@@ -103,8 +103,8 @@ of a node contains the escape sequence `\N`, it will be replaced by
 the node's name.
 If the [`headURL`](/docs/attrs/headlabel/) is defined and contains the escape sequence `\N`,
 it will be replaced by
-the [`headlabel`]({{< ref "/docs/attrs/headlabel.md" >}}), if defined.
+the [`headlabel`]({{< relref "/docs/attrs/headlabel.md" >}}), if defined.
 The analogous result holds for the [`tailURL`](/docs/attrs/tailURL/) and the
-[`taillabel`]({{< ref "/docs/attrs/taillabel.md" >}}).
+[`taillabel`]({{< relref "/docs/attrs/taillabel.md" >}}).
 
 See [ID Output Note](/docs/outputs/#ID).

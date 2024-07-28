@@ -12,7 +12,7 @@ description: Whether to justify multiline text vs the previous text line (rather
 By default, the justification of multi-line labels is done within the largest
 context that makes sense. Thus, in the label of a polygonal node, a
 left-justified line will align with the left side of the node (shifted by the
-prescribed [`margin`]({{< ref "margin.md" >}})). In record nodes, left-justified line will
+prescribed [`margin`]({{< relref "margin.md" >}})). In record nodes, left-justified line will
 line up with the left side of the enclosing column of fields. If
 `nojustify=true`, multi-line labels will be justified in the context
 of itself.

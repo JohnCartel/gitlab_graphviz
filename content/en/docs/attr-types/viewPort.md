@@ -19,7 +19,7 @@ of a node whose center should used as the focus.
 
 By default, the focus is the center of the graph bounding box, i.e.,
 `(bbx/2,bby/2)`, where `"bbx,bby"` is the
-value of the bounding box attribute [`bb`]({{< ref "/docs/attrs/bb.md" >}}).
+value of the bounding box attribute [`bb`]({{< relref "/docs/attrs/bb.md" >}}).
 
 Sample values: `50,50,.5,'2.8 BSD'` or `100,100,2,450,300`.
 The first will take the 100x100 point square centered on the node `2.8 BSD`

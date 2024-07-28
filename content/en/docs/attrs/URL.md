@@ -31,20 +31,20 @@ overlap the related node, and the edge URL dominates.
 If the edge has a label, this will also be active.
 Finally, if the edge has a head or tail label, this will also be active.
 
-For edges, the attributes [`headURL`]({{< ref "headURL.md" >}}),
-[`tailURL`]({{< ref "tailURL.md" >}}), [`labelURL`]({{< ref "labelURL.md" >}}) and
-[`edgeURL`]({{< ref "edgeURL.md" >}}) allow control of various parts of an
+For edges, the attributes [`headURL`]({{< relref "headURL.md" >}}),
+[`tailURL`]({{< relref "tailURL.md" >}}), [`labelURL`]({{< relref "labelURL.md" >}}) and
+[`edgeURL`]({{< relref "edgeURL.md" >}}) allow control of various parts of an
 edge.
 
 if active areas of two edges overlap, it is unspecified which area dominates.
 
 See also:
 
-- [`edgehref`]({{< ref "edgehref.md" >}}), [`edgeURL`]({{< ref "edgeURL.md" >}})
-- [`headhref`]({{< ref "headhref.md" >}}), [`headURL`]({{< ref "headURL.md" >}})
-- [`labelhref`]({{< ref "labelhref.md" >}}), [`labelURL`]({{< ref "labelURL.md" >}})
-- [`tailhref`]({{< ref "tailhref.md" >}}), [`tailURL`]({{< ref "tailURL.md" >}})
-- [`href`]({{< ref "href.md" >}}), [`URL`]({{< ref "URL.md" >}})
+- [`edgehref`]({{< relref "edgehref.md" >}}), [`edgeURL`]({{< relref "edgeURL.md" >}})
+- [`headhref`]({{< relref "headhref.md" >}}), [`headURL`]({{< relref "headURL.md" >}})
+- [`labelhref`]({{< relref "labelhref.md" >}}), [`labelURL`]({{< relref "labelURL.md" >}})
+- [`tailhref`]({{< relref "tailhref.md" >}}), [`tailURL`]({{< relref "tailURL.md" >}})
+- [`href`]({{< relref "href.md" >}}), [`URL`]({{< relref "URL.md" >}})
 
 {{< dot_card header="Example: Van Gogh Paintings with Links">}}
 graph {

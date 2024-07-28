@@ -15,14 +15,14 @@ description: External label for a node or edge
 useful in dot to avoid the occasional problem when the use of edge labels
 distorts the layout.
 * For other layouts, the
-xlabel attribute can be viewed as a synonym for the [`label`]({{< ref "label.md" >}})
+xlabel attribute can be viewed as a synonym for the [`label`]({{< relref "label.md" >}})
 attribute.
 
 These labels are added after all nodes and edges have been placed.
 
 The labels will be placed so that they do not overlap any node or label. This
 means it may not be possible to place all of them. To force placing all of
-them, set <code>[forcelabels]({{< ref "forcelabels.md" >}})=true</code>.
+them, set <code>[forcelabels]({{< relref "forcelabels.md" >}})=true</code>.
 
 {{< dot_card header="External Labels on Nodes and Edges" >}}
 digraph {

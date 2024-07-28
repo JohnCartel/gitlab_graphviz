@@ -21,5 +21,5 @@ desired minimum size. In this case, if both dimensions of the drawing are
 less than `size`, the drawing is scaled up uniformly until at least one
 dimension equals its dimension in `size`.
 
-There is some interaction between the `size` and [`ratio`]({{< ref "ratio.md" >}})
+There is some interaction between the `size` and [`ratio`]({{< relref "ratio.md" >}})
 attributes.

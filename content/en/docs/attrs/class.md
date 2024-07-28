@@ -10,15 +10,15 @@ types:
 used_by: ENCG
 description: Classnames to attach to the node, edge, graph, or cluster's SVG element
 ---
-Combine with [`stylesheet`]({{< ref "stylesheet.md" >}}) for styling SVG output
+Combine with [`stylesheet`]({{< relref "stylesheet.md" >}}) for styling SVG output
 using CSS classnames.
 
 Multiple space-separated classes are supported.
 
 See also:
 
-- [`stylesheet`]({{< ref "stylesheet.md" >}})
-- [`id`]({{< ref "id.md" >}})
+- [`stylesheet`]({{< relref "stylesheet.md" >}})
+- [`id`]({{< relref "id.md" >}})
 
 Example:
 

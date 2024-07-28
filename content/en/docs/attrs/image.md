@@ -10,7 +10,7 @@ used_by: "N"
 description: Gives the name of a file containing an image to be displayed inside a node
 ---
 The image file must be in one of the recognized
-[formats]({{< ref "../outputs/_index.md#image-formats" >}}), typically JPEG, PNG, GIF, BMP, SVG, or
+[formats]({{< relref "../outputs/_index.md#image-formats" >}}), typically JPEG, PNG, GIF, BMP, SVG, or
 Postscript, and be able to be converted into the desired output format.
 
 The file must contain the image size information:
@@ -26,7 +26,7 @@ The file must contain the image size information:
   units are in, px, pc, pt, cm and mm for inches, pixels, picas, points,
   centimeters and millimeters, respectively. The default unit is points.
 
-Unlike with the [`shapefile`]({{< ref "shapefile.md" >}}) attribute, the image is treated
+Unlike with the [`shapefile`]({{< relref "shapefile.md" >}}) attribute, the image is treated
 as node content rather than the entire node. In particular, an image can be
 contained in a node of any shape, not just a rectangle.
 

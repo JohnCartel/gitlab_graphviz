@@ -20,7 +20,7 @@ For `twopi`, `weight=0` indicates the edge should not be used in
 constructing a spanning tree from the root.
 
 For other layouts, a larger weight encourages the layout to make the edge
-length closer to that specified by the [`len`]({{< ref "len.md" >}}) attribute.
+length closer to that specified by the [`len`]({{< relref "len.md" >}}) attribute.
 
 Weights in `dot` must be integers.
 

@@ -20,13 +20,13 @@ consider using `shape=none`, `margin=0` and an HTML-like label.
 
 The geometry and style of all node shapes are affected by
 the node attributes 
-[`fixedsize`]({{< ref "/docs/attrs/fixedsize.md" >}}),
-[`fontname`]({{< ref "/docs/attrs/fontname.md" >}}),
-[`fontsize`]({{< ref "/docs/attrs/fontsize.md" >}}),
-[`height`]({{< ref "/docs/attrs/height.md" >}}),
-[`label`]({{< ref "/docs/attrs/label.md" >}}),
-[`style`]({{< ref "/docs/attrs/style.md" >}}) and
-[`width`]({{< ref "/docs/attrs/width.md" >}}).
+[`fixedsize`]({{< relref "/docs/attrs/fixedsize.md" >}}),
+[`fontname`]({{< relref "/docs/attrs/fontname.md" >}}),
+[`fontsize`]({{< relref "/docs/attrs/fontsize.md" >}}),
+[`height`]({{< relref "/docs/attrs/height.md" >}}),
+[`label`]({{< relref "/docs/attrs/label.md" >}}),
+[`style`]({{< relref "/docs/attrs/style.md" >}}) and
+[`width`]({{< relref "/docs/attrs/width.md" >}}).
 
 ## Polygon-based Nodes {#polygon}
 
@@ -45,31 +45,31 @@ appear in a filled rectangle.
 
 The geometries of polygon-based shapes are also affected
 by the node attributes 
-[`regular`]({{< ref "/docs/attrs/regular.md" >}}),
-[`peripheries`]({{< ref "/docs/attrs/peripheries.md" >}}) and
-[`orientation`]({{< ref "/docs/attrs/orientation.md" >}}).
+[`regular`]({{< relref "/docs/attrs/regular.md" >}}),
+[`peripheries`]({{< relref "/docs/attrs/peripheries.md" >}}) and
+[`orientation`]({{< relref "/docs/attrs/orientation.md" >}}).
 If `shape="polygon"`, the attributes
-[`sides`]({{< ref "/docs/attrs/sides.md" >}}),
-[`skew`]({{< ref "/docs/attrs/skew.md" >}}) and
-[`distortion`]({{< ref "/docs/attrs/distortion.md" >}}) are also used.
+[`sides`]({{< relref "/docs/attrs/sides.md" >}}),
+[`skew`]({{< relref "/docs/attrs/skew.md" >}}) and
+[`distortion`]({{< relref "/docs/attrs/distortion.md" >}}) are also used.
 If unset, they default to 4, 0.0 and 0.0, respectively.
 The point shape is special in that it is
-only affected by the [`peripheries`]({{< ref "/docs/attrs/peripheries.md" >}}),
-[`width`]({{< ref "/docs/attrs/width.md" >}}) and
-[`height`]({{< ref "/docs/attrs/height.md" >}}) attributes.
+only affected by the [`peripheries`]({{< relref "/docs/attrs/peripheries.md" >}}),
+[`width`]({{< relref "/docs/attrs/width.md" >}}) and
+[`height`]({{< relref "/docs/attrs/height.md" >}}) attributes.
 
 Normally, the size of a node is determined by smallest width and height
 needed to contain its label and image, if any, with a margin specified by
-the [`margin`]({{< ref "/docs/attrs/margin.md" >}}) attribute. The width
+the [`margin`]({{< relref "/docs/attrs/margin.md" >}}) attribute. The width
 and height must also be at least as large as the sizes specified by the
-[`width`]({{< ref "/docs/attrs/width.md" >}}) and
-[`height`]({{< ref "/docs/attrs/height.md" >}}) attributes, which specify
+[`width`]({{< relref "/docs/attrs/width.md" >}}) and
+[`height`]({{< relref "/docs/attrs/height.md" >}}) attributes, which specify
 the minimum values for these parameters. 
-See the [`fixedsize`]({{< ref "/docs/attrs/fixedsize.md" >}}) attribute
+See the [`fixedsize`]({{< relref "/docs/attrs/fixedsize.md" >}}) attribute
 for ways of restricting the node size.
 In particular, if `fixedsize=shape`, the node's shape will be fixed
-by the [`width`]({{< ref "/docs/attrs/width.md" >}}) and
-[`height`]({{< ref "/docs/attrs/height.md" >}}) attributes, and the shape
+by the [`width`]({{< relref "/docs/attrs/width.md" >}}) and
+[`height`]({{< relref "/docs/attrs/height.md" >}}) attributes, and the shape
 is used for edge termination, but both the shape and label sizes are used
 preventing node overlap. For example, the following graph:
 
@@ -127,7 +127,7 @@ record shape.
 
 These are specified by shape values of "record" and "Mrecord".
 The structure of a record-based node is determined by 
-its [`label`]({{< ref "/docs/attrs/label.md" >}}),
+its [`label`]({{< relref "/docs/attrs/label.md" >}}),
 which has the following schema:
 
 <TABLE>
@@ -155,9 +155,9 @@ so they must be escaped if you want spaces in the text.
 
 The first string in _fieldId_ assigns a portname to the field and can
 be combined with the node name to indicate where to attach an edge
-to the node. (See [portPos]({{< ref "/docs/attr-types/portPos.md" >}}).)
+to the node. (See [portPos]({{< relref "/docs/attr-types/portPos.md" >}}).)
 The second string is used as the text for the field; it supports the usual
-[escape sequences]({{< ref "/docs/attr-types/escString.md" >}}) `\n`, `\l` and `\r`.
+[escape sequences]({{< relref "/docs/attr-types/escString.md" >}}) `\n`, `\l` and `\r`.
 
 Visually, a record is a box, with fields represented by alternating
 rows of horizontal or vertical subboxes. The Mrecord shape is identical
@@ -170,7 +170,7 @@ from top to bottom and "A | { B | C } | D" will have "B" over "C", with
 "A" to the left and "D" to the right of "B" and "C".
 
 The initial orientation of a record node depends on the
-[rankdir]({{< ref "/docs/attrs/rankdir.md" >}}) attribute. If this attribute
+[rankdir]({{< relref "/docs/attrs/rankdir.md" >}}) attribute. If this attribute
 is `TB` (the default) or `BT`, corresponding to vertical
 layouts, the top-level fields in a record are displayed horizontally.
 If, however, this attribute is `LR` or `RL`,
@@ -211,12 +211,12 @@ it then looks like:
 
 ## Styles for Nodes
 
-The [`style`]({{< ref "/docs/attrs/style.md" >}})
+The [`style`]({{< relref "/docs/attrs/style.md" >}})
 attribute can be used to modify the appearance of a node.
 At present, there are 8 style values recognized:
 `filled`, `invisible`, `diagonals`, `rounded`.
 `dashed`, `dotted`, `solid` and `bold`.
-As usual, the value of the [`style`]({{< ref "/docs/attrs/style.md" >}})
+As usual, the value of the [`style`]({{< relref "/docs/attrs/style.md" >}})
 attribute can be a comma-separated list of any of these. If the
 style contains conflicts (e.g, `style="dotted, solid"`), the last
 attribute wins.
@@ -295,7 +295,7 @@ digraph R {
 
 <code id="d:bold">bold</code>
 : This style causes the node's border to be drawn as a bold line.
-  See also [penwidth]({{< ref "/docs/attrs/penwidth.md" >}}).
+  See also [penwidth]({{< relref "/docs/attrs/penwidth.md" >}}).
 
 Additional styles may be available with a specific code generator.
 
@@ -320,22 +320,22 @@ node to be larger, so that edges are clipped away from the label. In effect, `sh
 for `shape=none width=0 height=0 margin=0`.
 
 If the value of a label attribute
-([`label`]({{< ref "/docs/attrs/label.md" >}}) for nodes, edges, clusters, and
+([`label`]({{< relref "/docs/attrs/label.md" >}}) for nodes, edges, clusters, and
 graphs, and the
-[`headlabel`]({{< ref "/docs/attrs/headlabel.md" >}}) and
-[`taillabel`]({{< ref "/docs/attrs/taillabel.md" >}})
+[`headlabel`]({{< relref "/docs/attrs/headlabel.md" >}}) and
+[`taillabel`]({{< relref "/docs/attrs/taillabel.md" >}})
 attributes of an edge) is given as an
-[HTML string]({{< ref "lang.html#html" >}}),
+[HTML string]({{< relref "lang.html#html" >}}),
 that is, delimited by `<...>`
 rather than `"..."`,
 the label is interpreted as
 an HTML description. At their simplest, such labels
 can describe multiple lines of variously aligned text as provided by ordinary 
-[string labels]({{< ref "/docs/attr-types/escString.md" >}}). More generally, the
+[string labels]({{< relref "/docs/attr-types/escString.md" >}}). More generally, the
 label can specify a table similar to those provided by HTML,
 with different graphical attributes at each level.
 
-As [HTML strings]({{< ref "lang.html#html">}}) are processed like HTML input, any use of
+As [HTML strings]({{< relref "lang.html#html">}}) are processed like HTML input, any use of
 the `"`, `&`, `<`, and `>` characters in literal text or in attribute values
 need to be replaced by the corresponding escape sequence. For example, if you want to
 use `&` in an `href` value, this should be represented as `&amp;`.
@@ -351,7 +351,7 @@ HTML. The grammar below describes precisely what Graphviz will accept.
 Although HTML labels are not, strictly speaking, a shape, they can be
 viewed as a generalization of the record shapes described above. 
 In particular, if a node has set its 
-[`shape`]({{< ref "/docs/attr-types/shape.md" >}})
+[`shape`]({{< relref "/docs/attr-types/shape.md" >}})
 attribute to `none` or `plaintext`, the HTML label will be the node's
 shape. On the other hand, if the node has any other shape (except 
 `point`), the HTML label will be embedded within the node the
@@ -615,10 +615,10 @@ Attribute values must appear in double quotes.
   This color can be 
   overridden by a **_COLOR_** attribute in descendents.
   By default, the font color is determined by the
-  [fontcolor]({{< ref "/docs/attrs/fontcolor.md" >}}) attribute of
+  [fontcolor]({{< relref "/docs/attrs/fontcolor.md" >}}) attribute of
   the corresponding node, edge or graph, and the border color
   is determined by the
-  [color]({{< ref "/docs/attrs/color.md" >}}) attribute of
+  [color]({{< relref "/docs/attrs/color.md" >}}) attribute of
   the corresponding node, edge or graph.
 
 <span id="colspan">COLSPAN="value"</span>
@@ -636,7 +636,7 @@ Attribute values must appear in double quotes.
   This can be 
   overridden by a **_FACE_** attribute in descendents.
   By default, the font name is determined by the
-  [fontname]({{< ref "/docs/attrs/fontname.md" >}}) attribute of the corresponding
+  [fontname]({{< relref "/docs/attrs/fontname.md" >}}) attribute of the corresponding
   node, edge or graph.
 
 <span id="fixedsize">FIXEDSIZE</span>
@@ -667,15 +667,15 @@ Attribute values must appear in double quotes.
 <span id="href">HREF="value"</span>
 : attaches a URL to the object.
   Note that the `"value"` is treated as an
-  [escString]({{< ref "/docs/attr-types/escString.md" >}}) similarly to the
-  [URL]({{< ref "/docs/attrs/URL.md" >}}) attribute.
+  [escString]({{< relref "/docs/attr-types/escString.md" >}}) similarly to the
+  [URL]({{< relref "/docs/attrs/URL.md" >}}) attribute.
 
 <span id="id">ID="value"</span>
 : allows the user to specify a unique ID for a table or cell. See
-  the [id]({{< ref "/docs/attrs/id.md" >}}) attribute for more information.
+  the [id]({{< relref "/docs/attrs/id.md" >}}) attribute for more information.
   Note that the `"value"` is treated as an
-  [escString]({{< ref "/docs/attr-types/escString.md" >}}) similarly to the
-  [id]({{< ref "/docs/attrs/id.md" >}}) attribute.
+  [escString]({{< relref "/docs/attr-types/escString.md" >}}) similarly to the
+  [id]({{< relref "/docs/attrs/id.md" >}}) attribute.
 
 <span id="point-size">POINT-SIZE="value"</span>
 : sets the size of the font, in points, used within the scope of
@@ -683,12 +683,12 @@ Attribute values must appear in double quotes.
   This can be 
   overridden by a **_POINT-SIZE_** attribute in descendents.
   By default, the font size is determined by the
-  [fontsize]({{< ref "/docs/attrs/fontsize.md" >}}) attribute of the corresponding
+  [fontsize]({{< relref "/docs/attrs/fontsize.md" >}}) attribute of the corresponding
   node, edge or graph.
 
 <span id="port">PORT="value"</span>
 : attaches a portname to the object.
-  (See [portPos]({{< ref "/docs/attr-types/portPos.md" >}}).)
+  (See [portPos]({{< relref "/docs/attr-types/portPos.md" >}}).)
   This can be used to modify the head
   or tail of an edge, so that the end attaches directly to the object.
 
@@ -710,9 +710,9 @@ Attribute values must appear in double quotes.
   *   `HEIGHT` : expand image height to fill
   *   `BOTH` : expand both image width height to fill
   If this attribute is undefined, 
-  the image inherits the [imagescale]({{< ref "/docs/attrs/imagescale.md" >}})
+  the image inherits the [imagescale]({{< relref "/docs/attrs/imagescale.md" >}})
   attribute of the graph object being drawn.
-  As with the [imagescale]({{< ref "/docs/attrs/imagescale.md" >}})
+  As with the [imagescale]({{< relref "/docs/attrs/imagescale.md" >}})
   attribute, if the cell has a fixed size and the image is too large,
   any offending dimension will be shrunk to fit the space, the
   scaling being uniform in width and height if _SCALE=`"true"`_.
@@ -733,7 +733,7 @@ Attribute values must appear in double quotes.
 : specifies the image file to be displayed in the cell.
   Note that if the software is used as a web server, file system access
   to images is more restricted. See
-  [SERVER_NAME]({{< ref "command.html#d:SERVER_NAME" >}}).
+  [SERVER_NAME]({{< relref "command.html#d:SERVER_NAME" >}}).
 
 <span id="style">STYLE</span>
 : specifies style characteristics of the table or cell. Style characteristics are
@@ -753,15 +753,15 @@ Attribute values must appear in double quotes.
   has one. 
   See [W3C documentation](http://www.w3.org/TR/html401/present/frames.html#adef-target).
   Note that the `"value"` is treated as an
-  [escString]({{< ref "/docs/attr-types/escString.md" >}}) similarly to the
-  [target]({{< ref "/docs/attrs/target.md" >}}) attribute.
+  [escString]({{< relref "/docs/attr-types/escString.md" >}}) similarly to the
+  [target]({{< relref "/docs/attrs/target.md" >}}) attribute.
 
 <span id="title">TITLE="value"</span>
 : sets the tooltip annotation attached to the element. 
   This is used only if the element has a [`HREF`](#href) attribute.
   Note that the `"value"` is treated as an
-  [escString]({{< ref "/docs/attr-types/escString.md" >}}) similarly to the
-  [tooltip]({{< ref "/docs/attrs/tooltip.md" >}}) attribute.
+  [escString]({{< relref "/docs/attr-types/escString.md" >}}) similarly to the
+  [tooltip]({{< relref "/docs/attrs/tooltip.md" >}}) attribute.
 
 <span id="tooltip">TOOLTIP="value"</span>
 : is an alias for [**_TITLE_**](#title).

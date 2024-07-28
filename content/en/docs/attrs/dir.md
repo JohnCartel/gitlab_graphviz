@@ -16,9 +16,9 @@ description: Edge type for drawing arrowheads
 Indicates which ends of the edge should be decorated with an arrowhead.
 
 The actual style of the arrowhead can be specified using the
-[`arrowhead`]({{< ref "arrowhead.md" >}}) and [`arrowtail`]({{< ref "arrowtail.md" >}}) attributes.
+[`arrowhead`]({{< relref "arrowhead.md" >}}) and [`arrowtail`]({{< relref "arrowtail.md" >}}) attributes.
 
-See [limitation]({{< ref "_index.md#undir_note" >}}).
+See [limitation]({{< relref "_index.md#undir_note" >}}).
 
 {{< dot_card header="Example">}}
 digraph {

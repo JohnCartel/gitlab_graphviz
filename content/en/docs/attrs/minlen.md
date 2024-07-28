@@ -14,4 +14,4 @@ description: Minimum edge length (rank difference between head and tail)
 
 See also:
 
-- [`len`]({{< ref "len.md" >}})
+- [`len`]({{< relref "len.md" >}})

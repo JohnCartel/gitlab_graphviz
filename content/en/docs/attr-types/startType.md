@@ -18,5 +18,5 @@ in the graph.
 
 If the value is just `"random"`, a time-based seed is chosen.
 
-Note that input positions, specified by a node's [`pos`]({{< ref "../attrs/pos.md" >}}) attribute, are
+Note that input positions, specified by a node's [`pos`]({{< relref "../attrs/pos.md" >}}) attribute, are
 only used when the style is `"random"`.

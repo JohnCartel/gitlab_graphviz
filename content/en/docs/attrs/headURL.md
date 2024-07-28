@@ -12,14 +12,14 @@ used_by: E
 description: If defined, `headURL` is output as part of the head label of the edge
 ---
 
-Also, this value is used near the head node, overriding any [`URL`]({{< ref "URL.md" >}}) value.
+Also, this value is used near the head node, overriding any [`URL`]({{< relref "URL.md" >}}) value.
 
-See [limitation]({{< ref "_index.md#undir_note" >}}).
+See [limitation]({{< relref "_index.md#undir_note" >}}).
 
 See also:
 
-- [`edgehref`]({{< ref "edgehref.md" >}}), [`edgeURL`]({{< ref "edgeURL.md" >}})
-- [`headhref`]({{< ref "headhref.md" >}}), [`headURL`]({{< ref "headURL.md" >}})
-- [`labelhref`]({{< ref "labelhref.md" >}}), [`labelURL`]({{< ref "labelURL.md" >}})
-- [`tailhref`]({{< ref "tailhref.md" >}}), [`tailURL`]({{< ref "tailURL.md" >}})
-- [`href`]({{< ref "href.md" >}}), [`URL`]({{< ref "URL.md" >}})
+- [`edgehref`]({{< relref "edgehref.md" >}}), [`edgeURL`]({{< relref "edgeURL.md" >}})
+- [`headhref`]({{< relref "headhref.md" >}}), [`headURL`]({{< relref "headURL.md" >}})
+- [`labelhref`]({{< relref "labelhref.md" >}}), [`labelURL`]({{< relref "labelURL.md" >}})
+- [`tailhref`]({{< relref "tailhref.md" >}}), [`tailURL`]({{< relref "tailURL.md" >}})
+- [`href`]({{< relref "href.md" >}}), [`URL`]({{< relref "URL.md" >}})
