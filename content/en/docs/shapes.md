@@ -733,7 +733,7 @@ Attribute values must appear in double quotes.
 : specifies the image file to be displayed in the cell.
   Note that if the software is used as a web server, file system access
   to images is more restricted. See
-  [SERVER_NAME]({{< relref "command.html#d:SERVER_NAME" >}}).
+  [SERVER_NAME]({{< relref "/docs/cli/#d:SERVER_NAME" >}}).
 
 <span id="style">STYLE</span>
 : specifies style characteristics of the table or cell. Style characteristics are
