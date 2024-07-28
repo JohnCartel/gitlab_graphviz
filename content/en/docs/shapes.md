@@ -325,7 +325,7 @@ graphs, and the
 [`headlabel`]({{< relref "/docs/attrs/headlabel.md" >}}) and
 [`taillabel`]({{< relref "/docs/attrs/taillabel.md" >}})
 attributes of an edge) is given as an
-[HTML string]({{< relref "lang.html#html" >}}),
+[HTML string]({{< relref "lang.html#html-strings" >}}),
 that is, delimited by `<...>`
 rather than `"..."`,
 the label is interpreted as
@@ -335,7 +335,7 @@ can describe multiple lines of variously aligned text as provided by ordinary
 label can specify a table similar to those provided by HTML,
 with different graphical attributes at each level.
 
-As [HTML strings]({{< relref "lang.html#html">}}) are processed like HTML input, any use of
+As [HTML strings]({{< relref "lang.html#html-strings">}}) are processed like HTML input, any use of
 the `"`, `&`, `<`, and `>` characters in literal text or in attribute values
 need to be replaced by the corresponding escape sequence. For example, if you want to
 use `&` in an `href` value, this should be represented as `&amp;`.

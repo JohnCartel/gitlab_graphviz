@@ -21,6 +21,8 @@ Note also that the allowed compass point values are not keywords, so
 these strings can be used elsewhere as ordinary identifiers and, conversely,
 the parser will actually accept any identifier.
 
+## IDs
+
 An _ID_ is one of the following:
 
 *   Any string of alphabetic (`[a-zA-Z\200-\377]`) characters, underscores (`'_'`) or
@@ -33,9 +35,11 @@ quotes (`\"`)¹;
 An ID is just a string; the lack of quote characters in the first two
 forms is just for simplicity. There is no semantic difference between
 `abc_2` and `"abc_2"`, or between `2.34` and `"2.34"`. Obviously, to use a keyword as an ID, it must be quoted.
-Note that, in HTML strings, angle
-brackets must occur in matched pairs, and newlines and other formatting whitespace
-characters are allowed.
+
+### HTML strings
+
+Note that, in HTML strings, angle brackets must occur in matched pairs,
+and newlines and other formatting whitespace characters are allowed.
 In addition, the content must be legal XML, so that the special XML
 escape sequences for &quot;, &amp;, &lt;, and &gt; may be necessary
 in order to embed these characters in attribute values or raw text.
@@ -46,8 +50,12 @@ for [HTML-like labels](/doc/info/shapes.html#html).
 Both quoted strings and HTML strings are scanned as a unit, so
 any embedded comments will be treated as part of the strings.
 
+### Edge operations (edgeops)
+
 An _edgeop_ is `->` in directed graphs and `--` in
 undirected graphs.
+
+### Comments and optional formatting
 
 The language supports C++-style comments: `/* */` and `//`.
 In addition, a line beginning with a '#' character is considered a line
