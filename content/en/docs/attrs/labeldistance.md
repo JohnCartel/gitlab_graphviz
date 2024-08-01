@@ -14,4 +14,4 @@ The default distance is 10 points.
 
 `labeldistance` multiplies that default.
 
-See [`labelangle`]({{< ref "labelangle.md" >}}) for more details.
+See [`labelangle`]({{< relref "labelangle.md" >}}) for more details.

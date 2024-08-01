@@ -26,7 +26,7 @@ Colors can be specified using one of five formats:
   </TR>
   <TR>
     <TD>string</TD>
-    <TD><A HREF="{{< ref "../colors.md" >}}">color name</A></TD>
+    <TD><A HREF="{{< relref "../colors.md" >}}">color name</A></TD>
   </TR>
 </TABLE>
 
@@ -40,7 +40,7 @@ Graphviz 8.0.1) 4 numbers between 0 and 1, separated by whitespace or commas.
 
 String-valued color specifications are case-insensitive and interpreted in
 the context of the current color scheme, as specified by the
-[`colorscheme`]({{< ref "../attrs/colorscheme.md" >}}) attribute. If this is undefined, the X11 naming
+[`colorscheme`]({{< relref "../attrs/colorscheme.md" >}}) attribute. If this is undefined, the X11 naming
 scheme will be used. An initial `"/"` character can be used to override the
 use of the `colorscheme` attribute. In particular, a single initial `"/"`
 will cause the string to be evaluated using the default X11 naming. If the
@@ -50,10 +50,10 @@ form `"//yyyy"`, the `colorscheme` attribute is used. Thus, the forms
 `"yyyy"` and `"//yyyy"` are equivalent.
 
 At present, Graphviz recognizes the default color scheme `X11`, and the
-[Brewer color schemes]({{< ref "../colors.md#brewer" >}}) (cf.
+[Brewer color schemes]({{< relref "../colors.md#brewer" >}}) (cf.
 [ColorBrewer](http://www.personal.psu.edu/faculty/c/a/cab38/ColorBrewer/ColorBrewer_intro.html)).
 Please note that Brewer color schemes are covered by this
-[license]({{< ref "../colors.md#brewer_license" >}}).
+[license]({{< relref "../colors.md#brewer_license" >}}).
 
 Examples:
 
@@ -99,5 +99,5 @@ Examples:
 The string value `transparent` can be used to indicate no color. This is only
 available in the output formats ps, svg, fig, vmrl, and the bitmap formats.
 It can be used whenever a color is needed but is most useful with the
-[`bgcolor`]({{< ref "../attrs/bgcolor.md" >}}) attribute. Usually, the same effect can be achieved by
-setting [`style`]({{< ref "../attrs/style.md" >}}) to `invis`.
+[`bgcolor`]({{< relref "../attrs/bgcolor.md" >}}) attribute. Usually, the same effect can be achieved by
+setting [`style`]({{< relref "../attrs/style.md" >}}) to `invis`.

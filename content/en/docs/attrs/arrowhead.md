@@ -9,11 +9,11 @@ types:
 used_by: E
 description: Style of arrowhead on the head node of an edge
 ---
-This will only appear if the [`dir` attribute]({{< ref "dir.md" >}})
+This will only appear if the [`dir` attribute]({{< relref "dir.md" >}})
 is `forward` or `both`.
 
-See the [limitation]({{< ref "_index.md#undir_note" >}}).
+See the [limitation]({{< relref "_index.md#undir_note" >}}).
 
 See also:
 
-- [`arrowtail`]({{< ref "arrowtail.md" >}})
+- [`arrowtail`]({{< relref "arrowtail.md" >}})

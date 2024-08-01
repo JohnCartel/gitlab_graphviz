@@ -135,7 +135,7 @@ gmake install
 ## Build tools for win32
 
 See separate
-[build notes]({{< ref "winbuild.md" >}}) for Microsoft Windows.
+[build notes]({{< relref "winbuild.md" >}}) for Microsoft Windows.
 
 With some persistence you can likely get Graphviz to build on
 [UWIN](http://www.research.att.com/sw/tools/uwin) or

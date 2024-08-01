@@ -10,4 +10,4 @@ used_by: E
 description: Indicates where on the tail node to attach the tail of the edge
 ---
 
-See [limitation]({{< ref "_index.md#undir_note" >}}).
+See [limitation]({{< relref "_index.md#undir_note" >}}).

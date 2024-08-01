@@ -28,8 +28,8 @@ Without a plus sign, the node is scaled by `1 + w` in the x coordinate and
 
 If only a single number is given, this is used for both dimensions.
 
-If unset but [`esep`]({{< ref "esep.md" >}}) is defined, the `sep` values will be set to the
-[`esep`]({{< ref "esep.md" >}}) values divided by `0.8`. If [`esep`]({{< ref "esep.md" >}}) is unset, the
+If unset but [`esep`]({{< relref "esep.md" >}}) is defined, the `sep` values will be set to the
+[`esep`]({{< relref "esep.md" >}}) values divided by `0.8`. If [`esep`]({{< relref "esep.md" >}}) is unset, the
 default value is used.
 
 {{< dot_card header="Example: No separation">}}

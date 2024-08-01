@@ -5,7 +5,7 @@ stylesheet: colors.css
 weight: 7
 ---
 Color names are resolved in the context of a 
-[color scheme]({{< ref "/docs/attrs/colorscheme.md" >}}). Graphviz currently
+[color scheme]({{< relref "/docs/attrs/colorscheme.md" >}}). Graphviz currently
 supports the [X11 scheme](#x11),
 the [SVG scheme](#svg), and the [Brewer schemes](#brewer),
 with X11 being the default.

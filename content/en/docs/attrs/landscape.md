@@ -10,7 +10,7 @@ used_by: G
 description: If true, the graph is rendered in landscape mode
 ---
 Synonymous with
-<code>[rotate]({{< ref "rotate.md" >}})=90</code> or <code>[orientation]({{< ref "orientation.md" >}})=landscape</code>.
+<code>[rotate]({{< relref "rotate.md" >}})=90</code> or <code>[orientation]({{< relref "orientation.md" >}})=landscape</code>.
 
 {{< dot_card header="Rotations">}}
 digraph {
@@ -21,5 +21,5 @@ digraph {
 
 See also:
 
-- [`rotate`]({{< ref "rotate.md" >}})
-- [`orientation`]({{< ref "orientation.md" >}})
+- [`rotate`]({{< relref "rotate.md" >}})
+- [`orientation`]({{< relref "orientation.md" >}})

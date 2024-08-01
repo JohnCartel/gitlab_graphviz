@@ -10,7 +10,7 @@ format:
 - xdot1.4
 ---
 These formats produce output in the
-[dot language]({{< ref "/docs/lang.md" >}}).
+[dot language]({{< relref "/docs/lang.md" >}}).
 
 ## canon
 
@@ -30,23 +30,23 @@ digraph {
 The `dot` (and `gv` alias) options correspond to attributed dot output,
 and is the default output format.
 It reproduces the input, along with layout information for the graph.
-In particular, a [`bb`]({{< ref "/docs/attrs/bb.md" >}}) attribute is
+In particular, a [`bb`]({{< relref "/docs/attrs/bb.md" >}}) attribute is
 attached to the graph, specifying the bounding box of the drawing.
 If the graph has a label, its position is specified by the
-[`lp`]({{< ref "/docs/attrs/lp.md" >}}) attribute.
+[`lp`]({{< relref "/docs/attrs/lp.md" >}}) attribute.
 
-Each node gets [`pos`]({{< ref "/docs/attrs/pos.md" >}}),
-[`width`]({{< ref "/docs/attrs/width.md" >}}) and
+Each node gets [`pos`]({{< relref "/docs/attrs/pos.md" >}}),
+[`width`]({{< relref "/docs/attrs/width.md" >}}) and
 the record rectangles are given in the
-[`rects`]({{< ref "/docs/attrs/rects.md" >}}) attribute.
+[`rects`]({{< relref "/docs/attrs/rects.md" >}}) attribute.
 If the node is a polygon and the
-[`vertices`]({{< ref "/docs/attrs/vertices.md" >}}) attribute is defined, this
+[`vertices`]({{< relref "/docs/attrs/vertices.md" >}}) attribute is defined, this
 attribute contains the vertices of the node.
 
 Every edge is
-assigned a [`pos`]({{< ref "/docs/attrs/pos.md" >}}) attribute,
+assigned a [`pos`]({{< relref "/docs/attrs/pos.md" >}}) attribute,
 and if the edge has a label, the label position
-is given in [`lp`]({{< ref "/docs/attrs/lp.md" >}}).
+is given in [`lp`]({{< relref "/docs/attrs/lp.md" >}}).
 
 {{< card code=true header="Example: simple graph, outputting layout positioning with `-Tdot`">}}
 $ echo 'digraph { a->b }' | dot -Tdot
@@ -207,7 +207,7 @@ string width using its own rendering primitives.
 
 The text operation is only used in the label attributes. Normally,
 the non-text operations are only used in the non-label attributes.
-If, however, the [decorate]({{< ref "/docs/attrs/decorate.md" >}})
+If, however, the [decorate]({{< relref "/docs/attrs/decorate.md" >}})
 attribute is set on an edge, its label
 attribute will also contain a polyline operation.
 In addition, if a label is a complex, HTML-like label, it will also

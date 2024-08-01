@@ -16,7 +16,7 @@ description: node shape rotation angle, or graph orientation
 When used on nodes: Angle, in degrees, to rotate polygon node shapes. For any number of polygon sides, 0 degrees rotation results in a flat base.
 When used on graphs: If `"[lL]*"`, sets graph orientation to landscape.
 
-Used only if [`rotate`]({{< ref "rotate.md" >}}) is not defined.
+Used only if [`rotate`]({{< relref "rotate.md" >}}) is not defined.
 
 {{< dot_card header="Node Orientations">}}
 digraph {
@@ -44,5 +44,5 @@ digraph {
 
 See also:
 
-- [`orientation`]({{< ref "orientation.md" >}})
-- [`rotate`]({{< ref "rotate.md" >}})
+- [`orientation`]({{< relref "orientation.md" >}})
+- [`rotate`]({{< relref "rotate.md" >}})

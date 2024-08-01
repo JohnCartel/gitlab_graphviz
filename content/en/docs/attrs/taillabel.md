@@ -10,4 +10,4 @@ used_by: E
 description: Text label to be placed near tail of edge
 ---
 
-See [limitation]({{< ref "_index.md#undir_note" >}}).
+See [limitation]({{< relref "_index.md#undir_note" >}}).

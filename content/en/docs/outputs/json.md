@@ -10,9 +10,9 @@ format:
 These formats produce a [JSON output](https://www.json.org/) encoding the DOT language.
 
 - `json0` produces output in JSON format that contains the
-  same information produced by [`-Tdot`]({{< ref "canon.md" >}}).
+  same information produced by [`-Tdot`]({{< relref "canon.md" >}}).
 - `json` produces output in JSON format that contains the
-  same information produced by [`-Txdot`]({{< ref "canon.md" >}}).
+  same information produced by [`-Txdot`]({{< relref "canon.md" >}}).
 
 Both of these assume the graph has been processed by one of the layout
 algorithms.

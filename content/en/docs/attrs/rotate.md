@@ -19,5 +19,5 @@ digraph {
 
 See also:
 
-- [`landscape`]({{< ref "landscape.md" >}})
-- [`orientation`]({{< ref "orientation.md" >}})
+- [`landscape`]({{< relref "landscape.md" >}})
+- [`orientation`]({{< relref "orientation.md" >}})

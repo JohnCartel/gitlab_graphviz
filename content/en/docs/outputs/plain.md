@@ -42,7 +42,7 @@ There are four types of statements.
 : The _width_ and _height_ values give the width and height
 of the drawing. The lower left corner of the drawing is at the origin.
 The _scale_ value indicates how the drawing should be scaled
-if a [size]({{< ref "/docs/attrs/size.md" >}}) attribute was given and the drawing
+if a [size]({{< relref "/docs/attrs/size.md" >}}) attribute was given and the drawing
 needs to be scaled to conform to that size. If no scaling is necessary,
 it will be set to 1.0. Note that all graph, node and edge
 coordinates and lengths are given unscaled.
@@ -53,10 +53,10 @@ give the node's position. The _width_ and _height_ are the
 width and height of the node.
 The _label_,
 _style_, _shape_, _color_ and _fillcolor_ give the
-node's [label]({{< ref "/docs/attrs/label.md" >}}),
-[style]({{< ref "/docs/attrs/style.md" >}}), [shape]({{< ref "/docs/attrs/shape.md" >}}),
-[color]({{< ref "/docs/attrs/color.md" >}}) and
-[fillcolor]({{< ref "/docs/attrs/fillcolor.md" >}}),
+node's [label]({{< relref "/docs/attrs/label.md" >}}),
+[style]({{< relref "/docs/attrs/style.md" >}}), [shape]({{< relref "/docs/attrs/shape.md" >}}),
+[color]({{< relref "/docs/attrs/color.md" >}}) and
+[fillcolor]({{< relref "/docs/attrs/fillcolor.md" >}}),
 respectively, using attribute default values where necessary. If the
 node does not have a style attribute, "solid" is used.
 
@@ -67,10 +67,10 @@ node does not have a style attribute, "solid" is used.
   _n_ is the number of control points defining the
   B-spline forming the edge. This is followed by 2*_n_ numbers giving
   the x and y coordinates of the control points in order from tail to head.
-  If the edge has a [label]({{< ref "/docs/attrs/label.md" >}}), this comes next
+  If the edge has a [label]({{< relref "/docs/attrs/label.md" >}}), this comes next
   followed by the x and y coordinates of the label's position.
   The edge description is completed by the edge's
-  [style]({{< ref "/docs/attrs/style.md" >}}) and [color]({{< ref "/docs/attrs/color.md" >}}).
+  [style]({{< relref "/docs/attrs/style.md" >}}) and [color]({{< relref "/docs/attrs/color.md" >}}).
   As with nodes, if a style is not defined, "solid" is used.
 
   **Note:** The control points given in an edge statement define the
@@ -108,6 +108,6 @@ much more than node positions and sizes, and edge spline control points.
 These formats are usually most useful to applications wanting just this
 geometric information, and willing to fill in all of the graphical details.
 The only real advantages to these formats is their terseness and their
-ease of parsing. In general, the [dot]({{< ref "canon.md" >}}) and
-[xdot]({{< ref "canon.md" >}}) are preferable in terms of the quantity of
+ease of parsing. In general, the [dot]({{< relref "canon.md" >}}) and
+[xdot]({{< relref "canon.md" >}}) are preferable in terms of the quantity of
 information provided.

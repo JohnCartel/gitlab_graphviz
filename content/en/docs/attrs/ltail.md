@@ -11,7 +11,7 @@ used_by: E
 description: Logical tail of an edge
 ---
 
-When <code>[compound]({{< ref "compound.md" >}})=true</code>, if `ltail` is defined and is the name
+When <code>[compound]({{< relref "compound.md" >}})=true</code>, if `ltail` is defined and is the name
 of a cluster containing the real tail, the edge is clipped to the boundary of
 the cluster.
 
@@ -36,4 +36,4 @@ digraph {
 }
 {{< /dot_card >}}
 
-See [limitation]({{< ref "_index.md#undir_note" >}}).
+See [limitation]({{< relref "_index.md#undir_note" >}}).

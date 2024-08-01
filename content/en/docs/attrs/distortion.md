@@ -14,7 +14,7 @@ description: Distortion factor for <code>[shape](/docs/attrs/shape)=[polygon](/d
 Positive values cause top part to be larger than bottom; negative values do
 the opposite.
 
-See also [`skew`]({{< ref "skew.md" >}}).
+See also [`skew`]({{< relref "skew.md" >}}).
 
 {{< dot_card header="Example">}}
 graph {

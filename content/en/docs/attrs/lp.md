@@ -9,4 +9,4 @@ types:
 used_by: EGC
 description: Label center position
 ---
-Label center position, [in points]({{< ref "_index.md#points" >}}).
+Label center position, [in points]({{< relref "_index.md#points" >}}).

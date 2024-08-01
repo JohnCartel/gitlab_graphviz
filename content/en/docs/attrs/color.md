@@ -11,7 +11,7 @@ used_by: ENC
 description: Basic drawing color for graphics, not text
 ---
 For the latter, use the
-[`fontcolor`]({{< ref "fontcolor.md" >}}) attribute.
+[`fontcolor`]({{< relref "fontcolor.md" >}}) attribute.
 
 For edges, the value can either be a single color or a
 [`colorList`](/docs/attr-types/colorList/).
@@ -57,4 +57,4 @@ yields:
 
 See also:
 
-- [`colorscheme`]({{< ref "colorscheme.md" >}})
+- [`colorscheme`]({{< relref "colorscheme.md" >}})

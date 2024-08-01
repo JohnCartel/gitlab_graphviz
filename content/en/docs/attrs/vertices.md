@@ -12,5 +12,5 @@ description: Sets the coordinates of the vertices of the node's polygon, in inch
 
 Used if the node is polygonal, and output is `dot` or `xdot`.
 
-If the node is an ellipse or circle, the [`samplepoints`]({{< ref "samplepoints.md" >}})
+If the node is an ellipse or circle, the [`samplepoints`]({{< relref "samplepoints.md" >}})
 attribute affects the output.

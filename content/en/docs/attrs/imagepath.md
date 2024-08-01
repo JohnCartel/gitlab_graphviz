@@ -10,8 +10,8 @@ used_by: G
 description: A list of directories in which to look for image files
 ---
 When specified
-by the [`image`]({{< ref "image.md" >}}) attribute or using the `IMG` element in [HTML-like
-labels]({{< ref "../shapes.md#html" >}}).
+by the [`image`]({{< relref "image.md" >}}) attribute or using the `IMG` element in [HTML-like
+labels]({{< relref "../shapes.md#html" >}}).
 
 `imagepath` should be a list of (absolute or
 relative) pathnames, each separated by a semicolon `;` (for Windows) or a colon `:`

@@ -12,7 +12,7 @@ description: Height of node, in inches
 ---
 
 This is taken as the initial, minimum height of the node. If
-[`fixedsize`]({{< ref "fixedsize.md" >}}) is true, this will be the final height of the
+[`fixedsize`]({{< relref "fixedsize.md" >}}) is true, this will be the final height of the
 node. Otherwise, if the node label requires more height to fit, the node's height
 will be increased to contain the label.
 
@@ -38,4 +38,4 @@ digraph G {
 
 See also:
 
-- [`width`]({{< ref "width.md" >}})
+- [`width`]({{< relref "width.md" >}})

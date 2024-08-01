@@ -13,4 +13,4 @@ description: The distance between nodes in separate connected components
 ---
 If set too small, connected components may overlap.
 
-Only applicable if <code>[pack]({{< ref "pack.md" >}})=false</code>.
+Only applicable if <code>[pack]({{< relref "pack.md" >}})=false</code>.

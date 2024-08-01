@@ -59,6 +59,6 @@ the layout engine. For `dot`, the default is to draw edges as splines. For all
 other layouts, the default is to draw edges as line segments.
 
 Note that for these latter layouts, if `splines="true"`, this
-requires non-overlapping nodes (cf. [`overlap`]({{< ref "overlap.md" >}})).
+requires non-overlapping nodes (cf. [`overlap`]({{< relref "overlap.md" >}})).
 If `fdp` is used for layout and `splines="compound"`, then the edges are
 drawn to avoid clusters as well as nodes.

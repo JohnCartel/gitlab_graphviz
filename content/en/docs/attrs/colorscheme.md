@@ -12,9 +12,9 @@ description: "A color scheme namespace: the context for interpreting color names
 
 In particular, if a [`color`](/docs/attr-types/color/) value has form `"xxx"` or `"//xxx"`,
 then the color `xxx` will be evaluated according to the current color scheme.
-If no color scheme is set, the standard [X11 naming]({{< ref "../colors.md#x11" >}}) is used.
+If no color scheme is set, the standard [X11 naming]({{< relref "../colors.md#x11" >}}) is used.
 
-For example, if `colorscheme=oranges9` (from [Brewer color schemes]({{< ref "../colors.md#brewer" >}})), then `color=7` is interpreted as
+For example, if `colorscheme=oranges9` (from [Brewer color schemes]({{< relref "../colors.md#brewer" >}})), then `color=7` is interpreted as
 `color="/oranges9/7"`, the 7th color in the `oranges9` colorscheme.
 
 {{< dot_card header="Orange Colorscheme">}}
@@ -49,4 +49,4 @@ graph {
 
 See also:
 
-- [`color`]({{< ref "color.md" >}})
+- [`color`]({{< relref "color.md" >}})

@@ -12,7 +12,7 @@ used_by: NECG
 description: Tooltip (mouse hover text) attached to the node, edge, cluster, or graph
 ---
 
-If `tooltip` is unset, Graphviz will use the object's [`label`]({{< ref "label.md" >}}) if defined.
+If `tooltip` is unset, Graphviz will use the object's [`label`]({{< relref "label.md" >}}) if defined.
 
 Note
 that if the `label` is a record specification or an HTML-like label, the
@@ -34,7 +34,7 @@ digraph {
 
 See also:
 
-- [`edgetooltip`]({{< ref "edgetooltip.md" >}}).
-- [`headtooltip`]({{< ref "headtooltip.md" >}}).
-- [`labeltooltip`]({{< ref "labeltooltip.md" >}}).
-- [`tailtooltip`]({{< ref "tailtooltip.md" >}}).
+- [`edgetooltip`]({{< relref "edgetooltip.md" >}}).
+- [`headtooltip`]({{< relref "headtooltip.md" >}}).
+- [`labeltooltip`]({{< relref "labeltooltip.md" >}}).
+- [`tailtooltip`]({{< relref "tailtooltip.md" >}}).

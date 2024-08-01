@@ -9,7 +9,7 @@ types:
 used_by: G
 description: Which [layout engine](/docs/layouts/) to use
 ---
-Specifies the name of the [layout engine]({{< ref "/docs/layouts/_index.md" >}}) to
+Specifies the name of the [layout engine]({{< relref "/docs/layouts/_index.md" >}}) to
 use, such as `dot` or `neato`.
 
 Normally, graphs should be kept independent of a type of layout. In some
@@ -19,5 +19,5 @@ within the graph.
 For example, a graph containing position information from a layout might want
 to record what the associated layout engine was.
 
-This attribute takes precedence over the [`-K` flag]({{< ref "/docs/cli/_index.md#-K" >}}) or
+This attribute takes precedence over the [`-K` flag]({{< relref "/docs/cli/_index.md#-K" >}}) or
 the actual command name used.

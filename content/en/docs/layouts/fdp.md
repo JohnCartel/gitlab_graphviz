@@ -6,7 +6,7 @@ description: >
 ---
 
 [spring model](https://en.wikipedia.org/wiki/Spring_system)
-layouts similar to those of [neato]({{< ref "neato.md" >}}), but
+layouts similar to those of [neato]({{< relref "neato.md" >}}), but
 does this by reducing forces rather than working with energy.
 
 `fdp` implements the Fruchterman-Reingold heuristic[^1] including a multigrid solver

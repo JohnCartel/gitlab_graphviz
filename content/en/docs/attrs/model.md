@@ -14,7 +14,7 @@ description: Specifies how the distance matrix is computed for the input graph
 The distance matrix specifies the ideal distance between every pair of nodes.
 `neato` attempts to find a layout which best achieves these distances. By
 default, it uses the length of the shortest path, where the length of each
-edge is given by its [`len`]({{< ref "len.md" >}}) attribute.
+edge is given by its [`len`]({{< relref "len.md" >}}) attribute.
 
 * If `model="circuit"`, neato uses the circuit resistance model to compute the
   distances. This tends to emphasize clusters.
@@ -24,7 +24,7 @@ edge is given by its [`len`]({{< ref "len.md" >}}) attribute.
   nodes with high degree.
 
 For more control of distances, one can use `model=mds`. In this case, the
-[`len`]({{< ref "len.md" >}}) of an edge is used as the ideal distance between its vertices.
+[`len`]({{< relref "len.md" >}}) of an edge is used as the ideal distance between its vertices.
 
 A shortest path calculation is only used for pairs of nodes not connected by
 an edge. Thus, by supplying a complete graph, the input can specify all of

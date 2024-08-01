@@ -11,7 +11,7 @@ used_by: E
 description: Logical head of an edge
 ---
 
-When [`compound`]({{< ref "compound.md" >}}) is true, if `lhead` is defined and is the name
+When [`compound`]({{< relref "compound.md" >}}) is true, if `lhead` is defined and is the name
 of a cluster containing the real head, the edge is clipped to the boundary of
 the cluster.
 
@@ -36,4 +36,4 @@ digraph {
 }
 {{< /dot_card >}}
 
-See [limitation]({{< ref "_index.md#undir_note" >}}).
+See [limitation]({{< relref "_index.md#undir_note" >}}).

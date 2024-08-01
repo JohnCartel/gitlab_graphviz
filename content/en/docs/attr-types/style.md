@@ -136,14 +136,14 @@ radial gradient fill can be seen under [`colorList`](/docs/attr-types/colorList/
   </TR>
 </TABLE>
 
-The effect of `style=tapered` depends on the [`penwidth`]({{< ref "../attrs/penwidth.md" >}}),
-[`dir`]({{< ref "../attrs/dir.md" >}}), [`arrowhead`]({{< ref "../attrs/arrowhead.md" >}}) and [`arrowtail`]({{< ref "../attrs/arrowtail.md" >}})
+The effect of `style=tapered` depends on the [`penwidth`]({{< relref "../attrs/penwidth.md" >}}),
+[`dir`]({{< relref "../attrs/dir.md" >}}), [`arrowhead`]({{< relref "../attrs/arrowhead.md" >}}) and [`arrowtail`]({{< relref "../attrs/arrowtail.md" >}})
 attributes. The edge starts with width `penwidth` and tapers to width 1, in
 points. The `dir` attribute determines whether the tapering goes from tail to
 head (`dir=forward`), from head to tail (`dir=forward`), from the middle to
 both the head and tail (`dir=both`), or no tapering at all (`dir=none`). If
 the `dir` is not explicitly set, the default for the graph type is used (see
-[`dir`]({{< ref "/docs/attrs/dir.md" >}})). Arrowheads and arrowtails are also drawn, based on the value
+[`dir`]({{< relref "/docs/attrs/dir.md" >}})). Arrowheads and arrowtails are also drawn, based on the value
 of `dir`; to avoid this, set `arrowhead` and/or `arrowtail` to `"none"`.
 
 **Note:** At present, the tapered style only allows a simple filled polygon.
@@ -186,13 +186,13 @@ can use this to generate appropriate output.
 
 The style attribute affects the basic appearance of nodes, edges and graphs,
 but has no effect on any text used in labels. For this, use the
-[`fontname`]({{< ref "../attrs/fontname.md" >}}), [`fontsize`]({{< ref "../attrs/fontsize.md" >}}) and
-[`fontcolor`]({{< ref "../attrs/fontcolor.md" >}}) attributes, or the `<FONT>`, `<B>`, `<I>`, etc.
-elements in [HTML-like labels]({{< ref "../shapes.md#html" >}}).
+[`fontname`]({{< relref "../attrs/fontname.md" >}}), [`fontsize`]({{< relref "../attrs/fontsize.md" >}}) and
+[`fontcolor`]({{< relref "../attrs/fontcolor.md" >}}) attributes, or the `<FONT>`, `<B>`, `<I>`, etc.
+elements in [HTML-like labels]({{< relref "../shapes.md#html" >}}).
 
 The `setlinewidth` style value can be used for more control over the width of
 node borders and edges than is allowed by `bold`. This style value takes an
 argument, specifying the width of the line in [points](/doc/info/attrs.html#points). For example,
 `style="bold"` is equivalent to `style="setlinewidth(2)"`. **The use of
-`setlinewidth` is deprecated; one should use the [`penwidth`]({{< ref "../attrs/penwidth.md" >}})
+`setlinewidth` is deprecated; one should use the [`penwidth`]({{< relref "../attrs/penwidth.md" >}})
 attribute instead.**

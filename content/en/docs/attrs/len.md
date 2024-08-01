@@ -17,4 +17,4 @@ description: Preferred edge length, in inches
 
 See also:
 
-- [`minlen`]({{< ref "minlen.md" >}})
+- [`minlen`]({{< relref "minlen.md" >}})

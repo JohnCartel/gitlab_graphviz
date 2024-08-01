@@ -72,7 +72,7 @@ Overrides the default edge `color` and `arrowhead` attributes, producing red edg
 
 ### `-K`_layout_ {#-K}
 
-Specifies which default [layout engine]({{< ref "/docs/layouts/_index.md" >}}) to use, overriding the default from the command name. For example, running
+Specifies which default [layout engine]({{< relref "/docs/layouts/_index.md" >}}) to use, overriding the default from the command name. For example, running
 `dot -Kneato` is equivalent to running `neato`.
 
 ### `-T`_format_\[:_renderer_\[:_formatter_\]\] {#-T}
@@ -123,13 +123,13 @@ is not emitted.
 
 Sets no-op flag in **neato**.
 If set, **neato** assumes nodes have already been 
-positioned and all nodes have a [pos]({{< ref "/docs/attrs/pos.md" >}})
+positioned and all nodes have a [pos]({{< relref "/docs/attrs/pos.md" >}})
 attribute giving
 the positions. It then performs an optional adjustment to remove node-node
 overlap, depending on the value of the 
-[overlap]({{< ref "/docs/attrs/overlap.md" >}}) attribute, computes the edge
+[overlap]({{< relref "/docs/attrs/overlap.md" >}}) attribute, computes the edge
 layouts, depending on the value of the 
-[splines]({{< ref "/docs/attrs/splines.md" >}}) attribute, and
+[splines]({{< relref "/docs/attrs/splines.md" >}}) attribute, and
 emits the graph in the appropriate format. If _num_ is supplied,
 the following actions occur:
 
@@ -139,10 +139,10 @@ the following actions occur:
 <I>num</I> > 1
 : Use node positions as specified, with no adjustment to
 remove node-node overlaps, and use any edge layouts already specified
-by the [pos]({{< ref "/docs/attrs/pos.md" >}}) attribute. **neato**
+by the [pos]({{< relref "/docs/attrs/pos.md" >}}) attribute. **neato**
 computes an edge layout for any edge that does not have a **pos** attribute.
 As usual, edge layout is guided by the 
-[splines]({{< ref "/docs/attrs/splines.md" >}}) attribute.
+[splines]({{< relref "/docs/attrs/splines.md" >}}) attribute.
 
 ### `-o`_outfile_ {#-o}
 
@@ -188,7 +188,7 @@ Suppress warning messages.
 ### `-s`\[_scale_\] {#-s}
 Set input scale to _scale_. If this value is omitted,
 72.0 is used. This number is used to convert the point coordinate
-units used in the [pos]({{< ref "/docs/attrs/pos.md" >}}) attribute
+units used in the [pos]({{< relref "/docs/attrs/pos.md" >}}) attribute
 into inches, which is what is expected by neato and fdp. 
 Thus, feeding the output of a graph laid out by one program into
 neato or fdp almost always requires this flag.
@@ -247,7 +247,7 @@ _Used only if Graphviz is not built with the `fontconfig` library_
 ### `DOTFONTPATH` {#DOTFONTPATH}
 
 List of pathnames giving directories which a program should search for fonts.
-Overridden by [**fontpath**]({{< ref "/docs/attrs/fontpath.md" >}}).
+Overridden by [**fontpath**]({{< relref "/docs/attrs/fontpath.md" >}}).
 _Used only if Graphviz is not built with the `fontconfig` library_
 
 ### `SERVER_NAME` {id="d:SERVER_NAME"}

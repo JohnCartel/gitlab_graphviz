@@ -11,7 +11,7 @@ used_by: G
 description: If true, allow edges between clusters
 ---
 
-See [`lhead`]({{< ref "lhead.md" >}}) and [`ltail`]({{< ref "ltail.md" >}}).
+See [`lhead`]({{< relref "lhead.md" >}}) and [`ltail`]({{< relref "ltail.md" >}}).
 
 {{< dot_card >}}
 digraph {

@@ -12,7 +12,7 @@ used_by: E
 description: Tooltip annotation attached to the non-label part of an edge
 ---
 
-- [`headtooltip`]({{< ref "headtooltip.md" >}}).
-- [`labeltooltip`]({{< ref "labeltooltip.md" >}}).
-- [`tailtooltip`]({{< ref "tailtooltip.md" >}}).
-- [`tooltip`]({{< ref "tooltip.md" >}}).
+- [`headtooltip`]({{< relref "headtooltip.md" >}}).
+- [`labeltooltip`]({{< relref "labeltooltip.md" >}}).
+- [`tailtooltip`]({{< relref "tailtooltip.md" >}}).
+- [`tooltip`]({{< relref "tooltip.md" >}}).
