@@ -17,5 +17,4 @@ strict graph ip_map {
 	{IH4 IH2} -- {MLM HV};
 	HO1 -- HO3;
 	HO3 -- IH1;
-	IH2 -- IH4 [len=4];	// hack
 }
