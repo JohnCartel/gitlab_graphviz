@@ -31,7 +31,7 @@
     {{- highlight $gv_src "dot" "" -}}
   </div>
   <div class="card-footer">
-    <a href="http://magjac.com/graphviz-visual-editor/?dot={{ $gv_src }}" target="_blank"><i class="fa fa-external-link-alt"></i> Edit in Playground</a>
+    <a href="https://magjac.com/graphviz-visual-editor/?dot={{ $gv_src }}" target="_blank"><i class="fa fa-external-link-alt"></i> Edit in Playground</a>
     {{ with .footer }}
       {{ if eq $.context.Page.File.Ext "md" }}
         {{ . | markdownify }}

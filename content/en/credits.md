@@ -14,7 +14,7 @@ Graphviz has benefited by the contributions of many people over the years.
 
 and recently
 
-* Magnus Jacobsson ([d3-graphviz](https://github.com/magjac/d3-graphviz), [Graphviz Visual Editor](http://magjac.com/graphviz-visual-editor/), [forum](https://forum.graphviz.org/), build issues, restored some sense of order and self-respect)
+* Magnus Jacobsson ([d3-graphviz](https://github.com/magjac/d3-graphviz), [Graphviz Visual Editor](https://magjac.com/graphviz-visual-editor/), [forum](https://forum.graphviz.org/), build issues, restored some sense of order and self-respect)
 * Matthew Fernandez (review open issues, fixes to core algorithms, website)
 * Mark Hansen (review open issues, build process, website)
 
