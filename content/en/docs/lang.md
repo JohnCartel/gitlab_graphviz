@@ -117,7 +117,7 @@ do the layout so that the nodes belonging to the cluster are drawn together,
 with the entire drawing of the cluster contained within a bounding rectangle. 
 Note that, for good and bad, cluster subgraphs are not part of the
 DOT language, but solely a syntactic convention adhered to by
-certain of the layout engines.
+certain layout engines.
 
 ## Lexical and Semantic Notes
 
