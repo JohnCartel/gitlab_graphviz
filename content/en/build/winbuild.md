@@ -7,7 +7,15 @@ type: docs
 ---
 For building on Windows:
 
-**(Graphviz versions ≥ 2.41)**
+**(Graphviz versions ≥ 12.2.0)**
+
+CMake is now the only supported build system on Windows. For details, see
+[DEVELOPERS.md](https://gitlab.com/graphviz/graphviz/-/blob/main/DEVELOPERS.md)
+and
+[.gitlab-ci.yml](https://gitlab.com/graphviz/graphviz/-/blob/main/.gitlab-ci.yml)
+.
+
+**(Graphviz versions ≥ 2.41 and ≤ 12.1.2)**
 
 First, in the root of the repository, perform `git submodule update --init`. This will download all submodules, which are mostly the dependencies for the Windows build.
 Next, add the windows\dependencies\graphviz-build-utilities directory to your PATH (and restart Visual Studio or the prompt with which you execute msbuild after that). This folder contains the tools Bison, Flex and others with versions that are tested.
