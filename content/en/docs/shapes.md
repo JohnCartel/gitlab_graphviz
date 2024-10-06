@@ -71,23 +71,13 @@ In particular, if `fixedsize=shape`, the node's shape will be fixed
 by the [`width`]({{< relref "/docs/attrs/width.md" >}}) and
 [`height`]({{< relref "/docs/attrs/height.md" >}}) attributes, and the shape
 is used for edge termination, but both the shape and label sizes are used
-preventing node overlap. For example, the following graph:
+preventing node overlap.
 
-{{< dot_card >}}
-digraph G {
-  { 
-    node [margin=0 fontcolor=blue fontsize=32 width=0.5 shape=circle style=filled]
-    b [fillcolor=yellow fixedsize=true label="a very long label"]
-    d [fixedsize=shape label="an even longer label"]
-  }
-  a -> {c d}
-  b -> {c d}
-}
-{{< /dot_card >}}
-
-yields the figure:
-
-![](/docs/nodes/shapes/shape-fixedsize.svg)
+{{< dot_card
+  header="Example:"
+  svg="/docs/nodes/shapes/shape-fixedsize.svg"
+  file="/docs/nodes/shapes/shape-fixedsize.gv"
+/>}}
 
 Note that the label of the yellow node, with `fixedsize=true`, overlaps
 the other node, where there is sufficient space for the gray node with
