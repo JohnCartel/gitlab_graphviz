@@ -2,18 +2,20 @@
 
 function doGraph {
 	i=$1
-	echo $i
 	j=${i%.gv.txt}
 	# can't use neato -s -n2 because it does strange things to 
 	# the records in datastruct.gv
-	if [[ $j != fdp* ]] ;
-	then
-		neato -Tpng -Gsize="7,7" $i -o $j.png
-		neato -Tsvg $i -o $j.svg
-	else
-		fdp -Tpng -Gsize="7,7" $i -o $j.png
-		fdp -Tsvg $i -o $j.svg
-		echo use fdp!
+	if [[ $i -nt $j.png || $i -nt $j.svg ]]; then
+		if [[ $j != fdp* ]] ;
+		then
+			neato -Tpng -Gsize="7,7" $i -o $j.png
+			neato -Tsvg $i -o $j.svg
+		else
+			fdp -Tpng -Gsize="7,7" $i -o $j.png
+			fdp -Tsvg $i -o $j.svg
+			echo use fdp!
+		fi
+		ls -l $j.png $j.svg
 	fi
 }
 
