@@ -28,6 +28,7 @@
         {{ end }}
       </h6>
     {{ end }}
+    <object style="width:60%" type="image/svg+xml" data="https://quickchart.io/graphviz?graph={{- $gv_src -}}"></object>
     {{- highlight $gv_src "dot" "" -}}
   </div>
   <div class="card-footer">
